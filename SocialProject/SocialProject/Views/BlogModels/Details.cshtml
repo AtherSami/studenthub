@@ -1,0 +1,337 @@
+﻿@model SocialProject.Models.BlogModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+@*
+<h1>Details</h1>
+
+<div>
+    <h4>BlogModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BlogId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BlogId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.Raw(Model.Description)
+        </dd>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Attachment)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Attachment)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UpdateBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UpdateDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.BlogId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+
+<main>
+
+    <!-- Container START -->
+    <div class="container-fluid">
+        <div class="row g-4">
+            <!-- Sidenav START -->
+            <div class="col-lg-3">
+
+                <!-- Advanced filter responsive toggler START -->
+                <div class="d-flex align-items-center d-lg-none">
+                    <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                        <span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+                        <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+                    </button>
+                </div>
+                <!-- Advanced filter responsive toggler END -->
+                <!-- Navbar START-->
+                <nav class="navbar navbar-expand-lg mx-0">
+                    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasSideNavbar">
+                        <!-- Offcanvas header -->
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <!-- Offcanvas body -->
+                        <div class="offcanvas-body d-block px-2 px-lg-0 sidebar_style">
+                            <!-- Card START -->
+                            <div class="card overflow-hidden">
+                                <!-- Cover image -->
+                                <div class="h-50px" style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+                                <!-- Card body START -->
+                                <div class="card-body pt-0">
+                                    <div class="text-center">
+                                        <!-- Avatar -->
+                                        <div class="avatar avatar-lg mt-n5 mb-3">
+                                            <a href="#!"><img class="avatar-img rounded border border-white border-6" src="@Context.Session.GetString("Attachment")" alt=""></a>
+                                        </div>
+                                        <!-- Info -->
+                                        <h5 class="mb-0"> <a href="#!">@Context.Session.GetString("UserName")</a> </h5>
+                                        <small>Student</small>
+                                        <p class="mt-3">University Of Portsmouth</p>
+
+                                        <!-- User stat START -->
+                                        <div class="hstack gap-2 gap-xl-3 justify-content-center">
+                                            <!-- User stat item -->
+                                            <!-- Divider -->
+                                            @*<div class="vr"></div>*@
+
+
+                                        </div>
+                                        <!-- User stat END -->
+                                    </div>
+
+                                    <!-- Divider -->
+                                    <hr>
+
+                                    <!-- Side Nav START -->
+                                    <ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("Create","PostModels")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/home-outline-filled.svg" alt=""><span>New Feeds </span></a>
+                                        </li>
+                                        @*<li class="nav-item">
+                                        <a class="nav-link" href="my-profile-connections.html"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt=""><span>Connections </span></a>
+                                        </li>*@
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-action="Index" asp-controller="BlogModels"><img class="me-2 h-20px fa-fw" src="~/assets/images/icon/earth-outline-filled.svg" alt=""><span>Topics </span></a>
+                                        </li>
+                                        @*<li class="nav-item">
+                                        <a class="nav-link" href="@Url.Action("Events")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/calendar-outline-filled.svg" alt=""><span>Events </span></a>
+                                        </li>*@
+                                        @*     <li class="nav-item">
+                                        <a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/chat-outline-filled.svg" alt=""><span>Groups </span></a>
+                                        </li>*@
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/notification-outlined-filled.svg" alt=""><span>Timeline</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("Setting","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/cog-outline-filled.svg" alt=""><span>Settings </span></a>
+                                        </li>
+                                    </ul>
+                                    <!-- Side Nav END -->
+                                </div>
+                                <!-- Card body END -->
+                                <!-- Card footer -->
+                                <div class="card-footer text-center py-2">
+                                    <a class="btn btn-link btn-sm" href="@Url.Action("MyProfile","Home")">View Profile </a>
+                                </div>
+                            </div>
+                            <!-- Card END -->
+                            <!-- Helper link START -->
+                            <!-- Helper link END -->
+                            <!-- Copyright -->
+                        </div>
+                    </div>
+                </nav>
+                <!-- Navbar END-->
+            </div>
+            <!-- Main content START -->
+            <div class="col-lg-8 mx-auto">
+                <div class="vstack gap-4">
+                    <!-- Blog single START -->
+                   
+                        <div class="card card-body">
+                      
+                        @if (Model.Attachment != null)
+                            {
+
+                                <img src="@Url.Content("~/uploads/" + Model.Attachment)" width="400" height="200" />
+
+
+                            }
+                        
+                            <div class="mt-4">
+                                <!-- Tag -->
+                                <h1>
+                                <a asp-action="Details" asp-route-id="@Model.BlogId" class="btn-link stretched-link text-reset fw-bold">@Model.Title</a>
+
+                                </h1>
+                                <ul class="nav nav-stack gap-3 align-items-center">
+                                    <li class="nav-item">
+                                        <div class="nav-link">
+                                        by <a href="#" class="text-reset btn-link">@Model.CreateBy</a>
+                                        </div>
+                                    </li>
+                                <li class="nav-item"> <i class="bi bi-calendar-date pe-1"></i>@Model.CreateDate</li>
+                                      </ul>
+                                <!-- description -->
+                                <p class="mt-4">
+                                @Html.Raw(Model.Description)
+                                </p>
+
+                            </div>
+                        </div>
+                        <!-- Card END -->
+                   @* <form class="nav nav-item w-100 position-relative" method="post" asp-action="AddComment">
+                        <input type="hidden" name="postId" value="@actpost.PostId" />
+                        <textarea data-autoresize name="body" for="body" class="form-control pe-5 bg-light" rows="1" placeholder="Add a comment..."></textarea>
+                        <button class="nav-link bg-transparent px-3 position-absolute top-50 end-0 translate-middle-y border-0" type="submit">
+                            <i class="bi bi-send-fill"> </i>
+                        </button>
+                    </form>*@
+                    <!-- Comments START -->
+                    <div class="card ">
+                        <div class="card-header pb-0 border-0">
+                            <h4> Comments</h4>
+                        </div>
+                        <div class="card-body">
+                            @if (Model.UserComment != null)
+                            {
+                                @foreach (var comment in Model.UserComment)
+                                {
+
+                                    <!-- Comments START -->
+                                    <!-- Comment level 1-->
+                                    <div class="my-4 d-flex">
+                                        @if (comment.User != null && !string.IsNullOrEmpty(comment.User.Attachment))
+                                        {
+                                            <img class="avatar avatar-md rounded-circle float-start me-3" src="@Url.Content("~/uploads/" + @comment.User.Attachment)" />
+                                        }
+                                        <div>
+                                            <div class="mb-2 d-sm-flex">
+                                               
+                                                    <h6 class="m-0 me-2">@comment.FullName</h6>
+                                                
+                                                <span class="me-3 small">@comment.CreateDate </span>
+                                            </div>
+                                            <p>@comment.Body</p>
+                                           @* <a href="#" class="btn btn-light btn-sm">Reply</a>
+                                      *@  </div>
+                                    </div>
+                                }
+                            }
+                            <!-- Comment children level 3 -->
+                          
+                            <!-- Reply START -->
+                           
+                            <!-- Reply END -->
+                        </div>
+
+                    </div>
+                    <!-- Blog single END -->
+                    <div class="card card-body">
+
+                        <h4>Leave a reply</h4>
+                        <form class="row g-3 mt-2" method="post" asp-action="AddComment">
+                            <input type="hidden" name="blogId" value="@Model.BlogId" />
+                            <!-- Name -->
+                            @* <div class="col-md-6">
+                            <label class="form-label">Name *</label>
+                            <input type="text" asp-for="@Model.FullName" class="form-control" aria-label="Full Name">
+                            </div>*@
+                            <!-- Email -->
+                            <!-- Your Comment -->
+                            <div class="col-12">
+                                <label class="form-label">Your Comment *</label>
+                                <textarea class="form-control" name="body" for="body" rows="3"></textarea>
+                            </div>
+                            <!-- custom checkbox -->
+                            <!-- Button -->
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Post comment</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Main content END -->
+        </div> <!-- Row END -->
+    </div>
+    <!-- Container END -->
+
+</main>
+
+<!-- **************** MAIN CONTENT END **************** -->
+<!-- footer START -->
+<footer class="bg-mode py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Footer nav START -->
+                <ul class="nav justify-content-center justify-content-md-start lh-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-profile-about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://support.webestica.com/login">Support </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="docs/index.html">Docs </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy-and-terms.html">Privacy & terms</a>
+                    </li>
+                </ul>
+                <!-- Footer nav START -->
+            </div>
+            <div class="col-md-6">
+                <!-- Copyright START -->
+                <p class="text-center text-md-end mb-0">©2023 <a class="text-body" target="_blank" href="https://www.webestica.com"> Webestica </a>All rights reserved.</p>
+                <!-- Copyright END -->
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="css-5jw6hl eounsk91">
+
+    <style data-emotion="css 1av80no">
+        .css-1av80no {
+            padding: 10px 15px;
+            list-style: none;
+            margin-top: 0;
+        }
+
+        @@media screen and (min-width:1200px) {
+            .css-1av80no {
+                padding: 0;
+            }
+        }</style>
+        <li class="css-1av80no edbptmw0">
+                            <style data-emotion="css 1x204xj">
+                                .css-1x204xj {
+                                    background: none;
+                                    border: none;
+                                    -webkit-text-decoration: none;
+                                    text-decoration: none;
+                                    padding: 10px 15px;
+                                    cursor: pointer;
+                                }
+
+                                    .css-1x204xj:hover, .css-1x204xj:focus {
+                                        -webkit-text-decoration: none;
+                                        text-decoration: none;
+                                    }</style>
+                            @*<a class="css-1x204xj e1726gi31" href="plus/index.html">*@
+                                <style data-emotion="css 1qhg48d">
+                                    .css-1qhg48d {
+                                        color: #2C2A50;
+                                        font-weight: 500;
+                                        line-height: 22px;
+                                        font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                                        word-break: keep-all;
+                                        white-space: nowrap;
+                                    }
+
+                                        .css-1qhg48d:hover {
+                                            color: #00B2F7;
+                                            -webkit-text-decoration: none;
+                                            text-decoration: none;
+                                        }</style>
+                                @*<span class="css-1qhg48d eounsk90">Plus</span>*@
+                           @* </a>*@
+                        </li>
+@if (!string.IsNullOrEmpty( Context.Session.GetString("UserName")))
+{
+        <li class="css-1av80no edbptmw0">
+            <a class="css-1x204xj e1726gi31" href="/User/Add/@Context.Session.GetString("Userid")" title="Manage"> <span class="css-1qhg48d eounsk90">Hello @Context.Session.GetString("UserName")</span></a>
+    </li>
+        <li class="css-1av80no edbptmw0"><a class="css-1x204xj e1726gi31" asp-area="" asp-controller="User" asp-action="Logout"><span class="css-1qhg48d eounsk90">Logout</span></a></li>
+
+       
+}
+else
+{
+
+        <li class="css-1av80no edbptmw0"><a class="css-1x204xj e1726gi31" asp-area="" asp-controller="User" asp-action="Add"><span class="css-1qhg48d eounsk90">Register</span></a></li>
+
+        <li class="css-1av80no edbptmw0"><a class="css-1x204xj e1726gi31" asp-area="" asp-controller="User" asp-action="Login"><span class="css-1qhg48d eounsk90">Login</span></a></li>
+
+    }
+</ul>

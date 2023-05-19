@@ -1,0 +1,776 @@
+﻿@model SocialProject.Models.PostModel
+
+<style>
+	.sidebar_style{
+	 position: fixed;
+	 left:0;
+	width: 25%;
+	}
+	  /* Media query for screens with width less than or equal to 768px */
+  @@media (max-width: 993px) {
+	   .sidebar_style {
+    position: static; /* Change position to static for mobile devices */
+    width: 100%; /* Reset width to 100% for mobile devices */
+    left: auto; /* Reset left to auto for mobile devices */
+  }
+    }
+	.right_side_style{
+		 position: fixed;
+	 right:0;
+	width: 25%;
+	}
+	  /* Media query for screens with width less than or equal to 768px */
+  @@media (max-width: 993px) {
+		.right_side_style {
+    position: static; /* Change position to static for mobile devices */
+    width: 100%; /* Reset width to 100% for mobile devices */
+    left: auto; /* Reset left to auto for mobile devices */
+  }
+    }
+	.right_sidebar_style{
+		 position: fixed;
+		 bottom:0;
+	 right:0;
+	width: 25%;
+	}
+	  /* Media query for screens with width less than or equal to 768px */
+  @@media (max-width: 993px) {
+		.right_sidebar_style {
+    position: static; /* Change position to static for mobile devices */
+    width: 100%; /* Reset width to 100% for mobile devices */
+    left: auto; /* Reset left to auto for mobile devices */
+  }
+    }
+
+/* CSS styles for file preview elements */
+.file-element img,
+.file-element video {
+  max-width: 100px; /* Set the maximum width of the image or video */
+  max-height: 100px; /* Set the maximum height of the image or video */
+  margin-right: 5px; /* Add some margin to the right of the preview elements */
+}
+
+/* CSS styles for file display container */
+#fileDisplayContainer {
+  display: flex; /* Use flexbox to align the file preview elements */
+  flex-wrap: wrap; /* Allow file preview elements to wrap to the next line */
+}
+
+/* Style for the close button in the file element */
+.file-close {
+  cursor: pointer;
+  margin-right: 5px;
+  color: #212529;
+}
+</style>
+	<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+	<!-- Container START -->
+	<div class="container-fluid">
+		<div class="row g-4">
+
+			<!-- Sidenav START -->
+			<div class="col-lg-3">
+
+				<!-- Advanced filter responsive toggler START -->
+				<div class="d-flex align-items-center d-lg-none">
+					<button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+						<span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+						<span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+					</button>
+				</div>
+				<!-- Advanced filter responsive toggler END -->
+				<!-- Navbar START-->
+				<nav class="navbar navbar-expand-lg mx-0">
+					<div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasSideNavbar">
+						<!-- Offcanvas header -->
+						<div class="offcanvas-header">
+							<button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+
+						<!-- Offcanvas body -->
+						<div class="offcanvas-body d-block px-2 px-lg-0 sidebar_style">
+							<!-- Card START -->
+							<div class="card overflow-hidden">
+								<!-- Cover image -->
+								<div class="h-50px" style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+								<!-- Card body START -->
+								<div class="card-body pt-0">
+									<div class="text-center">
+										<!-- Avatar -->
+										<div class="avatar avatar-lg mt-n5 mb-3">
+											<a href="#!"><img class="avatar-img rounded border border-white border-6" src="@Context.Session.GetString("Attachment")" alt=""></a>
+										</div>
+										<!-- Info -->
+										<h5 class="mb-0"> <a href="#!">@Context.Session.GetString("UserName")</a> </h5>
+										<small>Student</small>
+										<p class="mt-3">University Of Portsmouth</p>
+
+										<!-- User stat START -->
+										<div class="hstack gap-2 gap-xl-3 justify-content-center">
+											<!-- User stat item -->
+											<!-- Divider -->
+											@*<div class="vr"></div>*@
+
+
+										</div>
+										<!-- User stat END -->
+									</div>
+
+									<!-- Divider -->
+									<hr>
+
+									<!-- Side Nav START -->
+									<ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+										<li class="nav-item">
+											<a class="nav-link" href="@Url.Action("Create","PostModels")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/home-outline-filled.svg" alt=""><span>New Feeds </span></a>
+										</li>
+										@*<li class="nav-item">
+										<a class="nav-link" href="my-profile-connections.html"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt=""><span>Connections </span></a>
+										</li>*@
+										<li class="nav-item">
+											<a class="nav-link" asp-area="" asp-action="Index" asp-controller="BlogModels"><img class="me-2 h-20px fa-fw" src="~/assets/images/icon/earth-outline-filled.svg" alt=""><span>Topics </span></a>
+										</li>
+										@*<li class="nav-item">
+										<a class="nav-link" href="@Url.Action("Events")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/calendar-outline-filled.svg" alt=""><span>Events </span></a>
+										</li>*@
+										@*     <li class="nav-item">
+										<a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/chat-outline-filled.svg" alt=""><span>Groups </span></a>
+										</li>*@
+										<li class="nav-item">
+											<a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/notification-outlined-filled.svg" alt=""><span>Timeline</span></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="@Url.Action("Setting","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/cog-outline-filled.svg" alt=""><span>Settings </span></a>
+												</li>
+									</ul>
+									<!-- Side Nav END -->
+								</div>
+								<!-- Card body END -->
+								<!-- Card footer -->
+								<div class="card-footer text-center py-2">
+									<a class="btn btn-link btn-sm" href="@Url.Action("MyProfile","Home")">View Profile </a>
+								</div>
+							</div>
+							<!-- Card END -->
+							<!-- Helper link START -->
+							<!-- Helper link END -->
+							<!-- Copyright -->
+						</div>
+					</div>
+				</nav>
+				<!-- Navbar END-->
+			</div>
+			<!-- Sidenav END -->
+			<!-- Main content START -->
+			<div class="col-md-8 col-lg-6 vstack gap-4">
+				@if (TempData["message"] != null)
+				{
+
+					<div class="alert alert-success">@TempData["message"]</div>
+				}
+			
+				<!-- Story END -->
+				<!-- Share feed START -->
+				<div class="card card-body">
+					<h3 class="modal-title" id="modalLabelCreateFeed">Create a public post</h3>
+					<br/>
+					<div class="d-flex mb-3">
+						
+						<!-- Post input -->
+						<form class="w-100">
+							<textarea class="form-control pe-4 border-0" rows="2" data-autoresize placeholder="What's on your mind?" data-bs-toggle="modal" data-bs-target="#modalCreateFeed"></textarea>
+						</form>
+					</div>
+					<!-- Share feed toolbar START -->
+					
+					<!-- Share feed toolbar END -->
+				</div>
+				<!-- Share feed END -->
+				<!-- Card feed item START -->
+				@{
+					List<PostModel> posts = ViewBag.activatePosts;
+					var orderedPosts = from post in posts
+												orderby post.CreateDate descending
+												select post;
+				}
+
+				@foreach (var actpost in orderedPosts)
+				{
+				<div class="card">
+					
+					<!-- Card header START -->
+					<div class="card-header border-0 pb-0">
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="d-flex align-items-center">
+								<!-- Avatar -->
+								<div class="avatar avatar-story me-2">
+									<a href="#!"> <img class="avatar-img rounded-circle"src="@Url.Content(actpost.CreateBy)" alt=""> </a>
+								</div>
+								<!-- Info -->
+								<div>
+									<div class="nav nav-divider">
+										<h6 class="nav-item card-title mb-0"> <a href="#!"> @actpost.FullName </a></h6>
+										@*<span class="nav-item small"> @actpost.CreateDate</span>*@
+									</div>
+									@*<p class="mb-0 small">Student</p>*@
+										<span class="nav-item small"> @actpost.CreateDate</span>
+								</div>
+							</div>
+							<!-- Card feed action dropdown START -->
+							@*<div class="dropdown">
+								<a href="#" class="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bi bi-three-dots"></i>
+								</a>
+								<!-- Card feed action dropdown menu -->
+								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction">
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-bookmark fa-fw pe-2"></i>Save post</a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-person-x fa-fw pe-2"></i>Unfollow lori ferguson </a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-x-circle fa-fw pe-2"></i>Hide post</a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-slash-circle fa-fw pe-2"></i>Block</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-flag fa-fw pe-2"></i>Report post</a></li>
+								</ul>
+							</div>*@
+							<!-- Card feed action dropdown END -->
+						</div>
+					</div>
+					<!-- Card header END -->
+					<!-- Card body START -->
+					<div class="card-body">
+							<p asp-for="@actpost.Description">@actpost.Description</p>
+								<!-- Card img -->
+								@if (actpost.Attachment != null)
+							{
+								@foreach (var attachment in actpost.Attachment.Split(','))
+								{
+									<div>
+										@if (attachment.EndsWith(".jpg") || attachment.EndsWith(".jpeg") || attachment.EndsWith(".png"))
+										{
+											<img src="@Url.Content("~/uploads/" + attachment)" />
+										}
+										else if (attachment.EndsWith(".mp4") || attachment.EndsWith(".avi") || attachment.EndsWith(".mov"))
+										{
+											<video controls>
+												<source src="@Url.Content("~/uploads/" + attachment)" type="video/mp4" />
+												Your browser does not support the video tag.
+											</video>
+										}
+										else if (attachment.EndsWith(".pdf"))
+										{
+											<a href="@Url.Content("~/uploads/" + attachment)" target="_blank">@attachment</a>
+										}
+									</div>
+								}
+
+							}
+						
+
+
+									@*<img src="/uploads/@actpost.Attachment" alt="Post" />*@
+								
+								
+						<ul class="nav nav-stack py-3 small">
+								<li class="nav-item">
+									<a class="nav-link active like-button" data-post-id="@actpost.PostId" id="pills-likes-tab" data-toggle="pill" href="#pills-likes" role="tab" aria-controls="pills-likes" aria-selected="true">
+										<i class="bi bi-hand-thumbs-up-fill"></i>
+										<span class="likes-count" data-post-id="@actpost.PostId">Likes (@actpost.LikesCount)</span>
+									</a>
+
+
+
+								</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#!"> <i class="bi bi-chat-fill pe-1"></i>Comments </a>
+							</li>
+							<!-- Card share action START -->
+							@*<li class="nav-item dropdown ms-sm-auto">
+								<a class="nav-link mb-0" href="#" id="cardShareAction" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bi bi-reply-fill flip-horizontal ps-1"></i>Share (3)
+								</a>*@
+								<!-- Card share action dropdown menu -->
+							@*	<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cardShareAction">
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-envelope fa-fw pe-2"></i>Send via Direct Message</a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-bookmark-check fa-fw pe-2"></i>Bookmark </a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-link fa-fw pe-2"></i>Copy link to post</a></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-share fa-fw pe-2"></i>Share post via …</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#"> <i class="bi bi-pencil-square fa-fw pe-2"></i>Share to News Feed</a></li>
+								</ul>
+							</li>*@
+							<!-- Card share action END -->
+						</ul>
+						<!-- Feed react END -->
+						<!-- Add comment -->
+						<div class="d-flex mb-3">
+							<!-- Avatar -->
+							<div class="avatar avatar-xs me-2">
+								<a href="#!"> <img class="avatar-img rounded-circle" src="@Context.Session.GetString("Attachment")" alt=""> </a>
+							</div>
+							<!-- Comment box  -->
+								<form class="nav nav-item w-100 position-relative"  method="post" asp-action="AddComment" >
+									<input type="hidden" name="postId" value="@actpost.PostId" />
+								<textarea data-autoresize name="body" for="body" class="form-control pe-5 bg-light" rows="1" placeholder="Add a comment..."></textarea>
+								<button class="nav-link bg-transparent px-3 position-absolute top-50 end-0 translate-middle-y border-0" type="submit">
+									<i class="bi bi-send-fill"> </i>
+								</button>
+							</form>
+
+							@*	<form method="post" asp-action="AddComment">
+									<input type="hidden" name="postId" value="@actpost.PostId" />
+
+									<label for="body">Comment Body:</label>
+									<textarea id="body" name="body"></textarea>
+
+									<button type="submit">Submit</button>
+								</form>*@
+						</div>
+
+						<!-- Comment wrap START -->
+						
+								<!-- Comment item nested START -->
+							@if (ViewBag.comments != null)
+							{
+								foreach (var comment in ViewBag.comments)
+								{
+									 if (comment.PostId == actpost.PostId)
+									{
+										<ul class="comment-wrap list-unstyled">
+											<li class="comment-item">
+												<div class="d-flex position-relative">
+													<div class="avatar avatar-xs">
+														@if (!string.IsNullOrEmpty(comment.Attachment))
+														{
+															<a href="#!"><img src="@Url.Content(comment.Attachment)" alt="" /></a>
+														}
+													</div>
+													<div class="ms-2">
+														<div class="bg-light rounded-start-top-0 p-3 rounded">
+															<div class="d-flex justify-content-between">
+																<h6 class="mb-1"><a href="#!" name="FullName">@comment.FullName</a></h6>
+																@*<small class="ms-2">5hr</small>*@
+															</div>
+															<p class="small mb-0">@comment.Body</p>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									}
+								}
+							}
+							<!-- Comment wrap END -->
+					</div>
+					<!-- Card body END -->
+					<!-- Card footer START -->
+					
+					<!-- Card footer END -->
+				</div>}
+				<!-- Card feed item END -->
+				<!-- Card feed item START -->
+				
+				<!-- Card feed item END -->
+				<!-- Card feed item START -->
+				
+				<!-- Card feed item END -->
+				<!-- Load more button START -->
+				
+				<!-- Load more button END -->
+
+			</div>
+			<!-- Main content END -->
+		</div> <!-- Row END -->
+	</div>
+	<!-- Container END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- Modal create Feed START -->
+<div class="modal fade" id="modalCreateFeed" tabindex="-1" aria-labelledby="modalLabelCreateFeed" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<!-- Modal feed header START -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabelCreateFeed">Create a public post</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<!-- Modal feed header END -->
+			<!-- Modal feed body START -->
+			<div class="modal-body">
+				<!-- Add Feed -->
+				<div class="d-flex mb-3">
+				
+
+					<!-- Feed box post -->
+					<form class="w-100" asp-action="Create" method="post" enctype="multipart/form-data">
+						<textarea asp-for="Description" class="form-control pe-4 fs-3 lh-1 border-0" rows="4" placeholder="Write something ..." required autofocus ></textarea>
+
+						<!-- Feed rect START -->
+								<div class="hstack gap-2">
+					<!-- Add the photo icon with the necessary attributes -->
+					<a class="icon-md bg-success bg-opacity-10 text-success rounded-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Select File" id="fileIcon">
+								<i class="bi bi-paperclip"></i>
+					</a>
+					 
+					<!-- Add an input eement to allow file selection, but hide it with CSS -->
+					<input type="file" id="fileInput" name="files" class="form-control-file" style="display:none" multiple/>
+					<!-- Add a containe1r to display the selected files -->
+
+				@*	<div id="fileDisplayContainer"></div>
+					<a class="icon-md bg-light text-secondary rounded-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Check in"> <i class="bi bi-geo-alt-fill"></i> </a>
+					</div>*@</div>
+				<!-- Feed rect END -->
+			
+			<!-- Modal feed body END -->
+			<!-- Modal feed footer -->
+								<div class="modal-footer row justify-content-between">
+				<!-- Select -->
+								<div class="col-lg-3">
+								
+					<!-- Button -->
+										</div>
+								<div class="col-lg-8 text-sm-end">
+					<button type="submit" class="btn btn-success-soft">Post</button>
+			
+								</div>
+							</div>
+	    	</form>
+			<!-- Modal feed footer -->
+			</div></div>
+
+			
+		</div>
+	</div>
+</div>
+<!-- Modal create feed END -->
+<!-- Modal create Feed photo START -->
+<div class="modal fade" id="feedActionPhoto" tabindex="-1" aria-labelledby="feedActionPhotoLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<!-- Modal feed header START -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="feedActionPhotoLabel">Add post photo</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<!-- Modal feed header END -->
+			<!-- Modal feed body START -->
+			<div class="modal-body">
+				<!-- Add Feed -->
+				<div class="d-flex mb-3">
+					<!-- Avatar -->
+					<div class="avatar avatar-xs me-2">
+						<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="">
+					</div>
+					<!-- Feed box  -->
+					<form class="w-100">
+						<textarea class="form-control pe-4 fs-3 lh-1 border-0" rows="2" placeholder="What's on your mind?'"></textarea>
+					</form>
+				</div>
+
+				<!-- Dropzone photo START -->
+				<div>
+					<label class="form-label">Upload attachment</label>
+					<div class="dropzone dropzone-default card shadow-none" data-dropzone='{"maxFiles":2}'>
+						<div class="dz-message">
+							<i class="bi bi-images display-3"></i>
+							<p>Drag here or click to upload photo.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Dropzone photo END -->
+
+			</div>
+			<!-- Modal feed body END -->
+			<!-- Modal feed footer -->
+			<div class="modal-footer ">
+				<!-- Button -->
+				<button type="button" class="btn btn-danger-soft me-2" data-bs-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-success-soft">Post</button>
+			</div>
+			<!-- Modal feed footer -->
+		</div>
+	</div>
+</div>
+<!-- Modal create Feed photo END -->
+<!-- Modal create Feed video START -->
+<div class="modal fade" id="feedActionVideo" tabindex="-1" aria-labelledby="feedActionVideoLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<!-- Modal feed header START -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="feedActionVideoLabel">Add post video</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<!-- Modal feed header END -->
+			<!-- Modal feed body START -->
+			<div class="modal-body">
+				<!-- Add Feed -->
+				<div class="d-flex mb-3">
+					<!-- Avatar -->
+					<div class="avatar avatar-xs me-2">
+						<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="">
+					</div>
+					<!-- Feed box  -->
+					<form class="w-100">
+						<textarea class="form-control pe-4 fs-3 lh-1 border-0" rows="2" placeholder="Ask me. What's on your mind?"></textarea>
+					</form>
+				</div>
+
+				<!-- Dropzone photo START -->
+				<div>
+					<label class="form-label">Upload attachment</label>
+					<div class="dropzone dropzone-default card shadow-none" data-dropzone='{"maxFiles":2}'>
+						<div class="dz-message">
+							<i class="bi bi-camera-reels display-3"></i>
+							<p>Drag here or click to upload video.</p>
+						</div>
+					</div>
+				</div>
+				<!-- Dropzone photo END -->
+
+			</div>
+			<!-- Modal feed body END -->
+			<!-- Modal feed footer -->
+			<div class="modal-footer">
+				<!-- Button -->
+				<button type="button" class="btn btn-danger-soft me-2"><i class="bi bi-camera-video-fill pe-1"></i> Live video</button>
+				<button type="button" class="btn btn-success-soft">Post</button>
+			</div>
+			<!-- Modal feed footer -->
+		</div>
+	</div>
+</div>
+<!-- Modal create Feed video END -->
+<!-- Modal create events START -->
+<div class="modal fade" id="modalCreateEvents" tabindex="-1" aria-labelledby="modalLabelCreateAlbum" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<!-- Modal feed header START -->
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabelCreateAlbum">Create event</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<!-- Modal feed header END -->
+			<!-- Modal feed body START -->
+			<div class="modal-body">
+				<!-- Form START -->
+				<form class="row g-4">
+					<!-- Title -->
+					<div class="col-12">
+						<label class="form-label">Title</label>
+						<input type="email" class="form-control" placeholder="Event name here">
+					</div>
+					<!-- Description -->
+					<div class="col-12">
+						<label class="form-label">Description</label>
+						<textarea class="form-control" rows="2" placeholder="Ex: topics, schedule, etc."></textarea>
+					</div>
+					<!-- Date -->
+					<div class="col-sm-4">
+						<label class="form-label">Date</label>
+						<input type="text" class="form-control flatpickr" placeholder="Select date">
+					</div>
+					<!-- Time -->
+					<div class="col-sm-4">
+						<label class="form-label">Time</label>
+						<input type="text" class="form-control flatpickr" data-enableTime="true" data-noCalendar="true" placeholder="Select time">
+					</div>
+					<!-- Duration -->
+					<div class="col-sm-4">
+						<label class="form-label">Duration</label>
+						<input type="email" class="form-control" placeholder="1hr 23m">
+					</div>
+					<!-- Location -->
+					<div class="col-12">
+						<label class="form-label">Location</label>
+						<input type="email" class="form-control" placeholder="Logansport, IN 46947">
+					</div>
+					<!-- Add guests -->
+					<div class="col-12">
+						<label class="form-label">Add guests</label>
+						<input type="email" class="form-control" placeholder="Guest email">
+					</div>
+					<!-- Avatar group START -->
+					<div class="col-12 mt-3">
+						<ul class="avatar-group list-unstyled align-items-center mb-0">
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/02.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/03.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/04.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/05.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/06.jpg" alt="avatar">
+							</li>
+							<li class="avatar avatar-xs">
+								<img class="avatar-img rounded-circle" src="assets/images/avatar/07.jpg" alt="avatar">
+							</li>
+							<li class="ms-3">
+								<small> +50 </small>
+							</li>
+						</ul>
+					</div>
+					<!-- Upload Photos or Videos -->
+					<!-- Dropzone photo START -->
+					<div>
+						<label class="form-label">Upload attachment</label>
+						<div class="dropzone dropzone-default card shadow-none" data-dropzone='{"maxFiles":2}'>
+							<div class="dz-message">
+								<i class="bi bi-file-earmark-text display-3"></i>
+								<p>Drop presentation and document here or click to upload.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Dropzone photo END -->
+				</form>
+				<!-- Form END -->
+			</div>
+			<!-- Modal feed body END -->
+			<!-- Modal footer -->
+			<!-- Button -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger-soft me-2" data-bs-dismiss="modal"> Cancel</button>
+				<button type="button" class="btn btn-success-soft">Create now</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal create events END -->
+								<!-- JavaScript code -->
+<script>
+// Get the file icon and file input element
+const fileIcon = document.getElementById('fileIcon');
+const fileInput = document.getElementById('fileInput');
+const fileDisplayContainer = document.getElementById('fileDisplayContainer');
+
+// Add an event listener to the file icon to trigger the file input click
+fileIcon.addEventListener('click', () => {
+    fileInput.click();
+});
+
+// Add an event listener to the file input to handle file selection
+fileInput.addEventListener('change', (event) => {
+    const files = event.target.files;
+
+    // Clear the file display container
+    fileDisplayContainer.innerHTML = '';
+
+    // Loop through the selected files
+    for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+
+        // Check if the file type is image, video, Word document, or PDF document
+        if (file.type.startsWith('image/') || file.type.startsWith('video/') || file.type === 'application/msword' || file.type === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' || file.type === 'application/pdf') {
+            // Create a new element to display the file details
+            const fileElement = document.createElement('div');
+            fileElement.className = 'file-element';
+
+            // Create a preview element based on the file type
+            let filePreview;
+            if (file.type.startsWith('image/')) {
+                filePreview = document.createElement('img');
+                filePreview.src = URL.createObjectURL(file);
+                filePreview.className = 'file-preview';
+            } else if (file.type.startsWith('video/')) {
+                filePreview = document.createElement('video');
+                filePreview.src = URL.createObjectURL(file);
+                filePreview.controls = true;
+                filePreview.className = 'file-preview';
+            } else if (file.type === 'application/pdf') {
+                filePreview = document.createElement('i');
+                filePreview.className = 'fas fa-file-pdf file-icon';
+                filePreview.style.fontSize = '64px'; // Set the font size of the PDF icon to match image and video previews
+            } else {
+                filePreview = document.createElement('p');
+                filePreview.textContent = file.name;
+            }
+
+            // Create a close button to remove the file display
+            const closeButton = document.createElement('span');
+            closeButton.className = 'file-close';
+            closeButton.innerHTML = '&times;';
+            closeButton.addEventListener('click', () => {
+                fileElement.remove();
+            });
+
+            // Append the file preview, close button, and file path to the file element
+            fileElement.appendChild(filePreview);
+            fileElement.appendChild(closeButton);
+
+            // Append the file element to the file display container
+            fileDisplayContainer.appendChild(fileElement);
+        }
+    }
+});
+
+</script>
+@*<script>
+	$(function () {
+		$('#pills-likes-tab').click(function ()		{
+			$.ajax({
+				url: '@Url.Action("LikePost", "PostModels")',
+				type: 'POST',
+				data: { postId: @Model.PostId },
+				success: function (result) {
+					if (result.success) {
+						// Refresh the likes count and list
+						$('#pills-likes').load('@Url.Action("GetLikes", "PostModels", new { postId = @Model.PostId }))');
+						$('#pills-likes-tab').html('<i class="bi bi-hand-thumbs-up-fill"></i> ' + result.likesCount);
+					} else {
+						alert('An error occurred while liking the post.');
+					}
+				},
+				error: function () {
+					alert('An error occurred while liking the post.');
+				}
+			});
+		});
+	});
+</script>*@
+
+<script>
+	$(function () {
+		$('.like-button').click(function () {
+			var postId = $(this).data('post-id');
+			$.ajax({
+				url: '@Url.Action("LikePost", "PostModels")',
+				type: 'POST',
+				data: { postId: postId },
+				success: function (result) {
+					if (result.success) {
+						// Update the likes count
+						$('.likes-count[data-post-id="' + postId + '"]').text('Likes (' + result.likesCount + ')');
+					} else {
+						alert('An error occurred while liking the post.');
+					}
+				},
+				error: function () {
+					alert('An error occurred while liking the post.');
+				}
+			});
+		});
+	});
+
+</script>
+
+
+
+
+
+
+
+
+
+

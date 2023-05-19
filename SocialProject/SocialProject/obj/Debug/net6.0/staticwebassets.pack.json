@@ -1,0 +1,2345 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SocialProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SocialProject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\albums\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\albums\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\app-store.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\app-store.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\07.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\08.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\09.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\10.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\11.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\12.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\13.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\14.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\avatar\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\bg\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\07.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\cookie.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\cookie.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\01.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\02.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\03.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\04.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\05.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\06.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\07.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\07.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\08.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\08.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\09.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\10.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\10.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\11.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\11.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\12.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\12.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\14.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\14.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\319A0761.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\319A0761.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\319A0763.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\319A0763.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\319A0767.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\319A0767.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\8F5261F3.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\8F5261F3.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\8F5261F4.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\8F5261F4.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\8F5261F5.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\8F5261F5.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\BD7D5ED1.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\BD7D5ED1.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\BD7D5ED3.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\BD7D5ED3.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\elements\\BD7D5ED6.html",
+      "PackagePath": "staticwebassets\\assets\\images\\elements\\BD7D5ED6.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\events\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\events\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\google-play.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\google-play.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\admin.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\admin.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\arrow-boxed-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\arrow-boxed-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\badge-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\badge-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\calendar-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\calendar-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\chat-alt-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\chat-alt-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\chat-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\chat-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\clipboard-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\clipboard-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\clock-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\clock-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\cog-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\cog-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\earth-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\earth-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\handshake-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\handshake-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\home-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\home-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\imac-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\imac-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\like-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\like-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\medal-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\medal-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\notification-outlined-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\notification-outlined-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\person-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\person-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\shield-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\shield-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\star-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\star-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\task-done-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\task-done-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\icon\\trash-var-outline-filled.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\trash-var-outline-filled.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\01.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\02.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\03.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\04.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\05.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\06.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\06.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\08.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\08.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\09.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\09.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\10.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\10.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\11.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\11.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\12.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\12.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\13.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\13.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\Uber.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\Uber.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\mockup\\app-placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mockup\\app-placeholder.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\mockup\\app-placeholder2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mockup\\app-placeholder2.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\mockup\\app-placeholder3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mockup\\app-placeholder3.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\mockup\\mac-placeholder.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mockup\\mac-placeholder.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\07.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\08.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\09.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\10.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\11.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\12.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\13.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\14.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\big\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\big\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\big\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\big\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\big\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\big\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\07.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\08.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\09.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\10.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\11.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\12.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\13.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\14.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\16by9\\large\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\16by9\\large\\15.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\1by1\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\1by1\\07.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\3by2\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\3by2\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\3by2\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\3by2\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\3by2\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\3by2\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\3by2\\uber.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\3by2\\uber.jpeg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\01.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\02.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\03.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\04.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\05.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\post\\4by3\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\post\\4by3\\06.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\assets\\images\\qr-code.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\videos\\audio.mp3",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\audio.mp3"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\videos\\poster.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\poster.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\videos\\video-call.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\video-call.mp4"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\images\\videos\\video-feed.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\videos\\video-feed.mp4"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\js\\functions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\functions.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\js\\zuck-stories.js",
+      "PackagePath": "staticwebassets\\assets\\js\\zuck-stories.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\OverlayScrollbars-master\\css\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\OverlayScrollbars-master\\css\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\OverlayScrollbars-master\\js\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\OverlayScrollbars-master\\js\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-iconsbf04.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\choices.js\\public\\assets\\scripts\\choices.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\choices.js\\public\\assets\\scripts\\choices.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\choices.js\\public\\assets\\styles\\choices.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\choices.js\\public\\assets\\styles\\choices.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\dropzone\\dist\\min\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dropzone\\dist\\min\\dropzone.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\dropzone\\dist\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\dropzone\\dist\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\flatpickr\\dist\\flatpickr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\dist\\flatpickr.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flatpickr\\dist\\flatpickr.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\glightbox-master\\dist\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox-master\\dist\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\glightbox-master\\dist\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox-master\\dist\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\plyr\\plyr.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\plyr\\plyr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\plyr\\plyr.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\pswmeter\\pswmeter.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\pswmeter\\pswmeter.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\tiny-slider\\dist\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\tiny-slider\\dist\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\tiny-slider\\dist\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\tiny-slider\\dist\\tiny-slider.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\zuck.js\\dist\\zuck.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\zuck.js\\dist\\zuck.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\assets\\vendor\\zuck.js\\dist\\zuck.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\zuck.js\\dist\\zuck.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor\\README.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\bender-runner.config.json",
+      "PackagePath": "staticwebassets\\ckeditor\\bender-runner.config.json"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\ckeditor\\config.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\fontawesome5\\css\\fontawesome5.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\fontawesome5\\css\\fontawesome5.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\fontawesome5\\dialogs\\fontawesome5.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\fontawesome5\\dialogs\\fontawesome5.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\hkurlsplit\\images\\timestamp.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\hkurlsplit\\images\\timestamp.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\ReadMe.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\ReadMe.txt"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\change_permisions.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\change_permisions.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\create_dir.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\create_dir.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\delete_dir.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\delete_dir.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\eval_php.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\eval_php.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\existing_con.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\existing_con.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\file_create.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\file_create.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\file_delete.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\file_delete.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\file_save.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\file_save.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\move_dir.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\move_dir.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\nonexisting_con.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\nonexisting_con.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\rename_dir.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\rename_dir.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\rename_file.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\rename_file.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\commands\\testFile.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\commands\\testFile.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\config.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\config.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\connectors\\jqueryFileTree.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\connectors\\jqueryFileTree.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\connectors\\jqueryFileTree.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\connectors\\jqueryFileTree.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\favicon.ico",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\find_content.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\find_content.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\i_goo_site_connector.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\i_goo_site_connector.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\image2.jpg",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\image2.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\application.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\application.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\code.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\code.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\css.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\css.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\db.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\db.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\directory.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\directory.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\doc.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\doc.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\file.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\file.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\film.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\film.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\flash.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\flash.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\folder_open.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\folder_open.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\html.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\html.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\java.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\java.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\linux.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\linux.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\music.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\music.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\pdf.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\pdf.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\php.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\php.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\picture.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\picture.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\ppt.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\ppt.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\psd.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\psd.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\ruby.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\ruby.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\script.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\script.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\spinner.gif"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\txt.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\txt.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\xls.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\xls.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\images\\zip.png",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\images\\zip.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\index.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\index.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\index.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\jquery-1.8.0.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\jquery-1.8.0.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\jquery.easing.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\jquery.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\jquery.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\jqueryFileTree.css",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\jqueryFileTree.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\jqueryFileTree.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\jqueryFileTree.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\language\\en.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\language\\en.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\language\\sr.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\language\\sr.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\logic.js",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\logic.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\logic.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\logic.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\logo.jpg",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\logo.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\plugins\\zamanager\\upload_back.php",
+      "PackagePath": "staticwebassets\\ckeditor\\plugins\\zamanager\\upload_back.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\dialog.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\dialog.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\dialog_ie.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\dialog_ie7.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\dialog_ie7.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\dialog_ie8.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\dialog_iequirks.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor_gecko.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor_ie.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor_ie.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor_ie7.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor_ie7.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor_ie8.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\editor_iequirks.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\icons.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\icons.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\icons_hidpi.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\arrow.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\close.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\lock-open.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\lock.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\lock.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\images\\refresh.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\skins\\moono-dark\\readme.md",
+      "PackagePath": "staticwebassets\\ckeditor\\skins\\moono-dark\\readme.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\ckeditor\\vendor\\promise.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\dashcss\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\datepicker.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\datepicker.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\main.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\main.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\site.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\css\\style.css",
+      "PackagePath": "staticwebassets\\dashcss\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\dashcss\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\datepicker.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\main.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\main.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\modernizr-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\modernizr-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\js\\site.js",
+      "PackagePath": "staticwebassets\\dashcss\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\dashcss\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\dashcss\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\08691b75268a809fef1533038a983836\\00783139-1eda-44f4-8698-256730ce6cfc.png",
+      "PackagePath": "staticwebassets\\static\\08691b75268a809fef1533038a983836\\00783139-1eda-44f4-8698-256730ce6cfc.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1133b73dfd15242b1a61066dae9ca221\\57fc3\\c67e2362-b8ec-4e1b-9608-ed8130f3a441.png",
+      "PackagePath": "staticwebassets\\static\\1133b73dfd15242b1a61066dae9ca221\\57fc3\\c67e2362-b8ec-4e1b-9608-ed8130f3a441.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\13e883eb9ff4052b4e1f9a2904a68564\\plus.svg",
+      "PackagePath": "staticwebassets\\static\\13e883eb9ff4052b4e1f9a2904a68564\\plus.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1718f517d1ec33e0480685c60b49609d\\271d8\\privacy_center@2x.jpg",
+      "PackagePath": "staticwebassets\\static\\1718f517d1ec33e0480685c60b49609d\\271d8\\privacy_center@2x.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1a27d969b13561e0936a91c19e35f8bb\\a7dc8\\c999c769-1ff0-4ba6-b6d5-a40fc166f5a6.png",
+      "PackagePath": "staticwebassets\\static\\1a27d969b13561e0936a91c19e35f8bb\\a7dc8\\c999c769-1ff0-4ba6-b6d5-a40fc166f5a6.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1ad2efb0859c25e1e70fb71607afcb39\\M_HomepageBanner@3x.png",
+      "PackagePath": "staticwebassets\\static\\1ad2efb0859c25e1e70fb71607afcb39\\M_HomepageBanner@3x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1bf4af25aa73d6fca0f062df05b0a661\\check_icon_color.svg",
+      "PackagePath": "staticwebassets\\static\\1bf4af25aa73d6fca0f062df05b0a661\\check_icon_color.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\1de393c14040aba99bd327e401761035\\efb6a\\a2b41f63-4161-4e61-b13c-1aa8c7d229cf.png",
+      "PackagePath": "staticwebassets\\static\\1de393c14040aba99bd327e401761035\\efb6a\\a2b41f63-4161-4e61-b13c-1aa8c7d229cf.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\24acb5a33639e22bc8e7fc8d700d5ae5\\b55a1\\contact.png",
+      "PackagePath": "staticwebassets\\static\\24acb5a33639e22bc8e7fc8d700d5ae5\\b55a1\\contact.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2baa53fac1277c063662eae554073beb\\10c00\\iKeepSafe-COPPA-seal.png",
+      "PackagePath": "staticwebassets\\static\\2baa53fac1277c063662eae554073beb\\10c00\\iKeepSafe-COPPA-seal.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2e9aa1449e3deeae0e4cc7b203577494\\f8671\\student_badge.png",
+      "PackagePath": "staticwebassets\\static\\2e9aa1449e3deeae0e4cc7b203577494\\f8671\\student_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2e9aa1449e3deeae0e4cc7b203577494\\student_badge.png",
+      "PackagePath": "staticwebassets\\static\\2e9aa1449e3deeae0e4cc7b203577494\\student_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2ea60db10b9c3978b0550469cd9a59d5\\pillar2-memories.png",
+      "PackagePath": "staticwebassets\\static\\2ea60db10b9c3978b0550469cd9a59d5\\pillar2-memories.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2eddb7eb12ac537979664aeb3d6e7a61\\447ef\\app-store-btn.png",
+      "PackagePath": "staticwebassets\\static\\2eddb7eb12ac537979664aeb3d6e7a61\\447ef\\app-store-btn.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\2f66d0a705b9bcae99e6548ee5fa7476\\d786d\\3924cd69-9e10-42c4-98ab-40b693728ff8.png",
+      "PackagePath": "staticwebassets\\static\\2f66d0a705b9bcae99e6548ee5fa7476\\d786d\\3924cd69-9e10-42c4-98ab-40b693728ff8.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\37f6935f8d72accaa2c1e3cfe278a69d\\plus_icon_color.svg",
+      "PackagePath": "staticwebassets\\static\\37f6935f8d72accaa2c1e3cfe278a69d\\plus_icon_color.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\3a2078c37d77d0bfceb375727d3fb1c3\\efb6a\\9e4ab65d-8f1e-4748-b425-1279ccac54ca.png",
+      "PackagePath": "staticwebassets\\static\\3a2078c37d77d0bfceb375727d3fb1c3\\efb6a\\9e4ab65d-8f1e-4748-b425-1279ccac54ca.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\40f6445ea2be062f50218cb7d51d5c10\\check_icon.svg",
+      "PackagePath": "staticwebassets\\static\\40f6445ea2be062f50218cb7d51d5c10\\check_icon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\42350df4906fbcb4751d4261f20795df\\19ca5\\40f7ddac-0d85-4ac2-9e43-5b53fe44024a.png",
+      "PackagePath": "staticwebassets\\static\\42350df4906fbcb4751d4261f20795df\\19ca5\\40f7ddac-0d85-4ac2-9e43-5b53fe44024a.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\43a1168fe9181acc6eff47de96f5fc11\\cf3cc\\14fdf691-e9c0-493b-a13d-0b4814200757.png",
+      "PackagePath": "staticwebassets\\static\\43a1168fe9181acc6eff47de96f5fc11\\cf3cc\\14fdf691-e9c0-493b-a13d-0b4814200757.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4550dccbbab891e3074e409442729d66\\f8671\\teacher_badge.png",
+      "PackagePath": "staticwebassets\\static\\4550dccbbab891e3074e409442729d66\\f8671\\teacher_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4550dccbbab891e3074e409442729d66\\teacher_badge.png",
+      "PackagePath": "staticwebassets\\static\\4550dccbbab891e3074e409442729d66\\teacher_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\475e87fe832cade93391aeb918b49c6a\\cf3cc\\b6ccaa47-2d3a-4e7c-9a97-86f4d62b5b34.png",
+      "PackagePath": "staticwebassets\\static\\475e87fe832cade93391aeb918b49c6a\\cf3cc\\b6ccaa47-2d3a-4e7c-9a97-86f4d62b5b34.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4805520c57a0a2c687b58d801c87a1f5\\efb6a\\87da244e-acc2-4bf3-84aa-f880d4726d9b.png",
+      "PackagePath": "staticwebassets\\static\\4805520c57a0a2c687b58d801c87a1f5\\efb6a\\87da244e-acc2-4bf3-84aa-f880d4726d9b.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4abb4c66d11920790a9560a530ab6913\\78d94c53-574b-4e7c-8db3-774b4eebc59c.jpg",
+      "PackagePath": "staticwebassets\\static\\4abb4c66d11920790a9560a530ab6913\\78d94c53-574b-4e7c-8db3-774b4eebc59c.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4bc4bfdcc4d1f61413889d82e0e86113\\b55a1\\resources.png",
+      "PackagePath": "staticwebassets\\static\\4bc4bfdcc4d1f61413889d82e0e86113\\b55a1\\resources.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\4d1b73ed5fcc1f1b938362a8d93ad003\\cf3cc\\b9051e0b-6c00-4647-b565-8700f462c560.png",
+      "PackagePath": "staticwebassets\\static\\4d1b73ed5fcc1f1b938362a8d93ad003\\cf3cc\\b9051e0b-6c00-4647-b565-8700f462c560.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\53d75dcac020a8d03d65f10cde9aa943\\d3418\\hero-terms.png",
+      "PackagePath": "staticwebassets\\static\\53d75dcac020a8d03d65f10cde9aa943\\d3418\\hero-terms.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\558793ea8dd2a2dd248b3dcc6ffbcbd7\\1689f\\dd8bb1fd-2bd8-49ca-b677-532d753b24b1.png",
+      "PackagePath": "staticwebassets\\static\\558793ea8dd2a2dd248b3dcc6ffbcbd7\\1689f\\dd8bb1fd-2bd8-49ca-b677-532d753b24b1.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\56e860e15d85b5f338f471efc142e547\\f8671\\parent_badge.png",
+      "PackagePath": "staticwebassets\\static\\56e860e15d85b5f338f471efc142e547\\f8671\\parent_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\56e860e15d85b5f338f471efc142e547\\parent_badge.png",
+      "PackagePath": "staticwebassets\\static\\56e860e15d85b5f338f471efc142e547\\parent_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\598b50eabda77f6067e6f229df38e87e\\classdojo_plus.svg",
+      "PackagePath": "staticwebassets\\static\\598b50eabda77f6067e6f229df38e87e\\classdojo_plus.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\5b9b1fb4da42e913053bfc43cad2f76d\\beliefs-image.svg",
+      "PackagePath": "staticwebassets\\static\\5b9b1fb4da42e913053bfc43cad2f76d\\beliefs-image.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\5d7d68abf94f0bdc171c8eef9108787c\\efb6a\\dac656dd-146e-47ae-bbe1-de34635186a4.png",
+      "PackagePath": "staticwebassets\\static\\5d7d68abf94f0bdc171c8eef9108787c\\efb6a\\dac656dd-146e-47ae-bbe1-de34635186a4.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\5e1135a2865b8e4f43a734f6cae9b0b3\\everyone_badge.png",
+      "PackagePath": "staticwebassets\\static\\5e1135a2865b8e4f43a734f6cae9b0b3\\everyone_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\5ec61b86f687520cdb32b95858bedb8b\\19ca5\\20b9033d-52fe-4abd-a547-7fbeae232854.png",
+      "PackagePath": "staticwebassets\\static\\5ec61b86f687520cdb32b95858bedb8b\\19ca5\\20b9033d-52fe-4abd-a547-7fbeae232854.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\5f576852899af22688af964573a8b145\\check_green_icon.svg",
+      "PackagePath": "staticwebassets\\static\\5f576852899af22688af964573a8b145\\check_green_icon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\62a509b13d9e238d7e9f20be764f3018\\65e33\\8a1506e5-2217-40ab-91ff-6ab154c75338.png",
+      "PackagePath": "staticwebassets\\static\\62a509b13d9e238d7e9f20be764f3018\\65e33\\8a1506e5-2217-40ab-91ff-6ab154c75338.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\62c39aa966d77c68f44692766ea78b8d\\efb6a\\8729fc72-ef32-465a-a838-558518b2ac00.png",
+      "PackagePath": "staticwebassets\\static\\62c39aa966d77c68f44692766ea78b8d\\efb6a\\8729fc72-ef32-465a-a838-558518b2ac00.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\65b428ee67ce71194ba8f8314ea9511f\\D_Hero@3x.png",
+      "PackagePath": "staticwebassets\\static\\65b428ee67ce71194ba8f8314ea9511f\\D_Hero@3x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\693cdb81ddb7e18b321042e4851ffc5d\\19ca5\\37b76f6c-87f0-4537-94c6-de049c80ee66.png",
+      "PackagePath": "staticwebassets\\static\\693cdb81ddb7e18b321042e4851ffc5d\\19ca5\\37b76f6c-87f0-4537-94c6-de049c80ee66.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\6b0e96a9a3be2c13e8257a3c1b556423\\7220b80a-0147-4664-8646-6acb25922371.jpg",
+      "PackagePath": "staticwebassets\\static\\6b0e96a9a3be2c13e8257a3c1b556423\\7220b80a-0147-4664-8646-6acb25922371.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\6db587db212725d5882c104dfd29d008\\60117a20-23c6-4029-b499-3173611a7a4d.jpg",
+      "PackagePath": "staticwebassets\\static\\6db587db212725d5882c104dfd29d008\\60117a20-23c6-4029-b499-3173611a7a4d.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\6f780977011ed1fc866c41b64baf1aba\\b206214f-42e0-41fb-a39f-0773c7ce1b92.png",
+      "PackagePath": "staticwebassets\\static\\6f780977011ed1fc866c41b64baf1aba\\b206214f-42e0-41fb-a39f-0773c7ce1b92.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\772c8439795e0c1a70cbb90492a37acd\\efb6a\\46f36c72-b0ea-4231-8793-19707e4e4d71.png",
+      "PackagePath": "staticwebassets\\static\\772c8439795e0c1a70cbb90492a37acd\\efb6a\\46f36c72-b0ea-4231-8793-19707e4e4d71.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\77473b2285cb4d29ddabfc3f16db02c3\\efb6a\\4e65645a-164c-4cd5-8479-f70be551ba0c.png",
+      "PackagePath": "staticwebassets\\static\\77473b2285cb4d29ddabfc3f16db02c3\\efb6a\\4e65645a-164c-4cd5-8479-f70be551ba0c.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\7d1e19752c37deaca4806f147c9f0bcc\\447ef\\google-play-btn.png",
+      "PackagePath": "staticwebassets\\static\\7d1e19752c37deaca4806f147c9f0bcc\\447ef\\google-play-btn.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\88171f5a925825b4ec10b0eb8b11facd\\efb6a\\3c4600ba-58b0-45f3-b94b-cbddb268c9cf.png",
+      "PackagePath": "staticwebassets\\static\\88171f5a925825b4ec10b0eb8b11facd\\efb6a\\3c4600ba-58b0-45f3-b94b-cbddb268c9cf.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\8ceb13c1cedc11f744c9077b520d0c79\\39223\\classdojo_logo_176@2x.png",
+      "PackagePath": "staticwebassets\\static\\8ceb13c1cedc11f744c9077b520d0c79\\39223\\classdojo_logo_176@2x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\91e10c4e0ce459ac6a0f0624af22593f\\9a84e\\teacher_resources-left@2x.jpg",
+      "PackagePath": "staticwebassets\\static\\91e10c4e0ce459ac6a0f0624af22593f\\9a84e\\teacher_resources-left@2x.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\92ddaacf2bce8da764ff58ef2ce72496\\19ca5\\c1f9bbdf-a3f1-4cb9-865d-7a8282dbe5e9.png",
+      "PackagePath": "staticwebassets\\static\\92ddaacf2bce8da764ff58ef2ce72496\\19ca5\\c1f9bbdf-a3f1-4cb9-865d-7a8282dbe5e9.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\9510a153f395c80069ecc0d04fc2c76d\\485b75d8-61a3-4b6d-9681-e86f811d2c0a.gif",
+      "PackagePath": "staticwebassets\\static\\9510a153f395c80069ecc0d04fc2c76d\\485b75d8-61a3-4b6d-9681-e86f811d2c0a.gif"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\98c78e675b09418627695d3af5a8d0a7\\pillar3-growth.png",
+      "PackagePath": "staticwebassets\\static\\98c78e675b09418627695d3af5a8d0a7\\pillar3-growth.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\98d09426bf3fc84bfa099a8dd097d7aa\\ced7a\\b7f35336-7384-421c-962a-be21dad91f06.png",
+      "PackagePath": "staticwebassets\\static\\98d09426bf3fc84bfa099a8dd097d7aa\\ced7a\\b7f35336-7384-421c-962a-be21dad91f06.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\9956a1aa11547bb384e0ce48646bde86\\2b502\\student-privacy-pledge-signatory-badge.png",
+      "PackagePath": "staticwebassets\\static\\9956a1aa11547bb384e0ce48646bde86\\2b502\\student-privacy-pledge-signatory-badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\9abf12138413a36c746941adef183be5\\65e33\\1cb507a9-d082-4760-8262-d70a04a0f78b.png",
+      "PackagePath": "staticwebassets\\static\\9abf12138413a36c746941adef183be5\\65e33\\1cb507a9-d082-4760-8262-d70a04a0f78b.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\9da15bacf729e058e503bc47d947acac\\34daac81-fb31-446d-a977-14a71583d11a.gif",
+      "PackagePath": "staticwebassets\\static\\9da15bacf729e058e503bc47d947acac\\34daac81-fb31-446d-a977-14a71583d11a.gif"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\a6d6caa92cd18f9e4c75ce4a779a3b91\\5d9d97b8-9177-4343-b4b9-66d149fa402f.gif",
+      "PackagePath": "staticwebassets\\static\\a6d6caa92cd18f9e4c75ce4a779a3b91\\5d9d97b8-9177-4343-b4b9-66d149fa402f.gif"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\a9e93b2963613936dfa7dbfbeb576ee6\\efb6a\\e0c7e59d-73b3-4468-a7d0-6ee96f42e3dd.png",
+      "PackagePath": "staticwebassets\\static\\a9e93b2963613936dfa7dbfbeb576ee6\\efb6a\\e0c7e59d-73b3-4468-a7d0-6ee96f42e3dd.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\aa6021adfcbfffbe81aaed9d9d285c49\\3cfe8564-b3b6-496b-9f34-3f5ba9755ab0.png",
+      "PackagePath": "staticwebassets\\static\\aa6021adfcbfffbe81aaed9d9d285c49\\3cfe8564-b3b6-496b-9f34-3f5ba9755ab0.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\aaaf604e28115f70726089fea21dfda1\\pillar1-connection.png",
+      "PackagePath": "staticwebassets\\static\\aaaf604e28115f70726089fea21dfda1\\pillar1-connection.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\aeaba02ccdac3fc5ebd967ad9f6f7c16\\efb6a\\e5959e1b-e602-4b03-9e6c-824d060062de.png",
+      "PackagePath": "staticwebassets\\static\\aeaba02ccdac3fc5ebd967ad9f6f7c16\\efb6a\\e5959e1b-e602-4b03-9e6c-824d060062de.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\afd29bd1e487f15b1cd7cfdf74c79f3c\\9c7d84d4-5a63-4d7b-93f3-081c8d99ea26.png",
+      "PackagePath": "staticwebassets\\static\\afd29bd1e487f15b1cd7cfdf74c79f3c\\9c7d84d4-5a63-4d7b-93f3-081c8d99ea26.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\b059c94104fe2ffeac943e201ff761c6\\hero-image.svg",
+      "PackagePath": "staticwebassets\\static\\b059c94104fe2ffeac943e201ff761c6\\hero-image.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\b421239df88d008b288a6dc0f71579c8\\efb6a\\c5535deb-1d14-48ba-88c6-4fc3f4fc7133.png",
+      "PackagePath": "staticwebassets\\static\\b421239df88d008b288a6dc0f71579c8\\efb6a\\c5535deb-1d14-48ba-88c6-4fc3f4fc7133.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\bab18376026c2cdbc74038500cec8d68\\271d8\\contact-us@2x.jpg",
+      "PackagePath": "staticwebassets\\static\\bab18376026c2cdbc74038500cec8d68\\271d8\\contact-us@2x.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\bd281fa92afd20cfa3c651db78c6ff96\\dce5c095-f1be-40bd-b3b7-be56aa7c298c.jpg",
+      "PackagePath": "staticwebassets\\static\\bd281fa92afd20cfa3c651db78c6ff96\\dce5c095-f1be-40bd-b3b7-be56aa7c298c.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\be73318eb5734701018d9ddb167c31f5\\6d39c1d5-3f8d-456a-a0dc-e313d5bfa3d1.png",
+      "PackagePath": "staticwebassets\\static\\be73318eb5734701018d9ddb167c31f5\\6d39c1d5-3f8d-456a-a0dc-e313d5bfa3d1.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\bfe57498704be8d50a9e06fba5ed383e\\2486d89b-154c-44e7-a0f7-d94e0e806353.jpg",
+      "PackagePath": "staticwebassets\\static\\bfe57498704be8d50a9e06fba5ed383e\\2486d89b-154c-44e7-a0f7-d94e0e806353.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\c33ad71cccd1a015316444e8d1887578\\335bc\\balloons-right@2x.png",
+      "PackagePath": "staticwebassets\\static\\c33ad71cccd1a015316444e8d1887578\\335bc\\balloons-right@2x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\c35fc5ef174be8560991b3ffde5e7a25\\19ca5\\4df6c057-f6ee-41cf-b40d-83a713315be8.png",
+      "PackagePath": "staticwebassets\\static\\c35fc5ef174be8560991b3ffde5e7a25\\19ca5\\4df6c057-f6ee-41cf-b40d-83a713315be8.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\c43d39f6ec91380b051cd348f05dfc09\\e4d72\\footer-image@2x.png",
+      "PackagePath": "staticwebassets\\static\\c43d39f6ec91380b051cd348f05dfc09\\e4d72\\footer-image@2x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\c63827d7b13859ae53603e1c3ea3adba\\d786d\\0a31d914-8e87-43e7-ab15-efc0704cc9a4.png",
+      "PackagePath": "staticwebassets\\static\\c63827d7b13859ae53603e1c3ea3adba\\d786d\\0a31d914-8e87-43e7-ab15-efc0704cc9a4.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\cb558bd97c4d0195f3335e2842335c0e\\798c2\\balloons-left@2x.png",
+      "PackagePath": "staticwebassets\\static\\cb558bd97c4d0195f3335e2842335c0e\\798c2\\balloons-left@2x.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\cd-logo-dark-bg-37999a30ed94ea202ee8730657f7b8cd.svg",
+      "PackagePath": "staticwebassets\\static\\cd-logo-dark-bg-37999a30ed94ea202ee8730657f7b8cd.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\cdb0e0cf08f67fed08f35fe80cec04c3\\about-image.svg",
+      "PackagePath": "staticwebassets\\static\\cdb0e0cf08f67fed08f35fe80cec04c3\\about-image.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\ce3a961fdbe41fbce9a2128640a14849\\1689f\\bbbcc6ee-871d-4ce6-8b7f-9477cca36663.png",
+      "PackagePath": "staticwebassets\\static\\ce3a961fdbe41fbce9a2128640a14849\\1689f\\bbbcc6ee-871d-4ce6-8b7f-9477cca36663.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\d37072ca9bf0f712ff63684234c489ff\\a7dc8\\5313ab10-3d25-4c41-be5f-3e36943dd82d.png",
+      "PackagePath": "staticwebassets\\static\\d37072ca9bf0f712ff63684234c489ff\\a7dc8\\5313ab10-3d25-4c41-be5f-3e36943dd82d.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\d9b88c4cd60307c8430f469fccc8e1db\\10c00\\iKeepSafe-FERPA-seal.png",
+      "PackagePath": "staticwebassets\\static\\d9b88c4cd60307c8430f469fccc8e1db\\10c00\\iKeepSafe-FERPA-seal.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\daef618c04d7456bf9cda32910f27aed\\1689f\\33ff5984-f5cb-4d9a-aa7a-fbbbc9382d7a.png",
+      "PackagePath": "staticwebassets\\static\\daef618c04d7456bf9cda32910f27aed\\1689f\\33ff5984-f5cb-4d9a-aa7a-fbbbc9382d7a.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\dc9286f227c078773c6d8a59690340a9\\quotes_icon.svg",
+      "PackagePath": "staticwebassets\\static\\dc9286f227c078773c6d8a59690340a9\\quotes_icon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\df5b8085dd0aebca7bb3d4e6a2526631\\resources_image_1.svg",
+      "PackagePath": "staticwebassets\\static\\df5b8085dd0aebca7bb3d4e6a2526631\\resources_image_1.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\e2fd0a68241f9945fb8352e92b568433\\3a23d\\portfolios-dojo.png",
+      "PackagePath": "staticwebassets\\static\\e2fd0a68241f9945fb8352e92b568433\\3a23d\\portfolios-dojo.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\e41bd2db2ecd0eff653c71c848038e0c\\logged-out_badge.png",
+      "PackagePath": "staticwebassets\\static\\e41bd2db2ecd0eff653c71c848038e0c\\logged-out_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\e5ca833f6efce8d6a687312bf4303ad9\\close_icon.svg",
+      "PackagePath": "staticwebassets\\static\\e5ca833f6efce8d6a687312bf4303ad9\\close_icon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\ebd0acf379d28da41ff81fd7886ba657\\efb6a\\97b9339c-2f4a-4df4-845a-b4ae2881d555.png",
+      "PackagePath": "staticwebassets\\static\\ebd0acf379d28da41ff81fd7886ba657\\efb6a\\97b9339c-2f4a-4df4-845a-b4ae2881d555.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\f21bd115a204da6a96eccb8f363f6ec1\\star_badge_icon.svg",
+      "PackagePath": "staticwebassets\\static\\f21bd115a204da6a96eccb8f363f6ec1\\star_badge_icon.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\f71327e80ddf112897f3e1c1604dc9f8\\57fc3\\teacher-basics.png",
+      "PackagePath": "staticwebassets\\static\\f71327e80ddf112897f3e1c1604dc9f8\\57fc3\\teacher-basics.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\f72adb15950785556e2e94131fa112b1\\65e33\\d4c4089f-8b82-4a2f-af4c-7c1329c4874f.png",
+      "PackagePath": "staticwebassets\\static\\f72adb15950785556e2e94131fa112b1\\65e33\\d4c4089f-8b82-4a2f-af4c-7c1329c4874f.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\fb6002f9a84166f09261d627fccae9ad\\09cad\\truste-seal.png",
+      "PackagePath": "staticwebassets\\static\\fb6002f9a84166f09261d627fccae9ad\\09cad\\truste-seal.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\fd1ce8f9d8f7b5c0771eafca1a424193\\f8671\\school_leader_badge.png",
+      "PackagePath": "staticwebassets\\static\\fd1ce8f9d8f7b5c0771eafca1a424193\\f8671\\school_leader_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\fd1ce8f9d8f7b5c0771eafca1a424193\\school_leader_badge.png",
+      "PackagePath": "staticwebassets\\static\\fd1ce8f9d8f7b5c0771eafca1a424193\\school_leader_badge.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\fd2240ff0bb5e13c556dacdfc6de4bea\\9a84e\\teacher_resources-right@2x.jpg",
+      "PackagePath": "staticwebassets\\static\\fd2240ff0bb5e13c556dacdfc6de4bea\\9a84e\\teacher_resources-right@2x.jpg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\feature-free-1dd0e7c95846f14425f490ceb1e082e6.svg",
+      "PackagePath": "staticwebassets\\static\\feature-free-1dd0e7c95846f14425f490ceb1e082e6.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\header-video-7cce45815f4072a21a6c9632e43c05ff.mp4",
+      "PackagePath": "staticwebassets\\static\\header-video-7cce45815f4072a21a6c9632e43c05ff.mp4"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\iKeepSafe-COPPA-seal-3104a52f8460b19d392f65f910d55aad.png",
+      "PackagePath": "staticwebassets\\static\\iKeepSafe-COPPA-seal-3104a52f8460b19d392f65f910d55aad.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\iKeepSafe-FERPA-seal-0195bc8f663f50255ab380e14bd9c1ab.png",
+      "PackagePath": "staticwebassets\\static\\iKeepSafe-FERPA-seal-0195bc8f663f50255ab380e14bd9c1ab.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\privacy-mojo-be1b945f3491fc8bd50dc6fc8f87c3af.svg",
+      "PackagePath": "staticwebassets\\static\\privacy-mojo-be1b945f3491fc8bd50dc6fc8f87c3af.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\signature-139ef47a60adb8ed3a5a3a9c9199066d.svg",
+      "PackagePath": "staticwebassets\\static\\signature-139ef47a60adb8ed3a5a3a9c9199066d.svg"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\static\\truste-seal-cb5b498458630c5d127acf9bf0e311ba.png",
+      "PackagePath": "staticwebassets\\static\\truste-seal-cb5b498458630c5d127acf9bf0e311ba.png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (1).png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\Screenshot (2).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (2).png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\Screenshot (67).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (67).png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\Screenshot (68).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (68).png"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\Summative assessment 1 SBU501.docx",
+      "PackagePath": "staticwebassets\\uploads\\Summative assessment 1 SBU501.docx"
+    },
+    {
+      "Id": "D:\\PortsmouthStudentHub\\studenthub\\SocialProject\\SocialProject\\wwwroot\\uploads\\mypic.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mypic.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SocialProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SocialProject.props",
+      "PackagePath": "build\\SocialProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SocialProject.props",
+      "PackagePath": "buildMultiTargeting\\SocialProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SocialProject.props",
+      "PackagePath": "buildTransitive\\SocialProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,279 @@
+﻿@model IEnumerable<SocialProject.Models.PostModel>
+
+@{
+    Layout = "~/views/shared/_layout1.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="">
+
+
+<body>
+    <!-- Preloader Start Here -->
+    <!-- Preloader End Here -->
+    <div id="wrapper" class="wrapper bg-ash">
+        <!-- Header Menu Area Start Here -->
+        <div class="navbar navbar-expand-md header-menu-one bg-light">
+            <div class="nav-bar-header-one">
+                <div class="header-logo">
+                    <a asp-area="" asp-controller="Admin" asp-action="Index">
+                       
+                    </a>
+                </div>
+                <div class="toggle-button sidebar-toggle">
+                    <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="d-md-none mobile-nav-bar">
+                <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </button>
+                <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+                <ul class="navbar-nav">
+                    <li class="navbar-item header-search-bar">
+                        <div class="input-group stylish-input-group">
+                           @* <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Find Something . . .">*@
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    
+                    <li class="css-1av80no edbptmw0"><a class="css-1x204xj e1726gi31" asp-area="" asp-controller="User" asp-action="Logout"><span class="css-1qhg48d eounsk90">Logout</span></a></li>
+
+                    
+                </ul>
+          </div></div>
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+        <div class="dashboard-page-one">
+            <!-- Sidebar Area Start Here -->
+            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
+                <div class="mobile-sidebar-header d-md-none">
+                    <div class="header-logo">
+                        <a href="#"><img src="~/assets/images/logo/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="sidebar-menu-content">
+                    <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+                       <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                            </li>
+
+                       
+                       
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="AdminDashboard" asp-controller="PostModels" class="nav-link menu-active"><i class="flaticon-menu-1"></i><span>New Requests</span></a>
+                            
+                        </li>
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="Index" asp-controller="PostModels" class="nav-link"><i class="flaticon-script"></i><span>ActivePosts</span></a>
+                            
+                        </li>
+                     
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="create" asp-controller="BlogModels" class="nav-link"><i class="flaticon-chat"></i><span>AddTopic</span></a>
+                           
+                        </li>
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="ActiveTopic" asp-controller="BlogModels" class="nav-link "><i class="flaticon-chat"></i><span>ActiveTopics</span></a>
+
+                        </li>
+                     
+                    </ul>
+                </div>
+            </div>
+            <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    
+                    <ul>
+                       
+                        <li>Post Requests</li>
+                    </ul>
+                </div>
+                <!-- Breadcubs Area End Here -->
+                <!-- Class Table Area Start Here -->
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            
+                           
+                        <div class="table-responsive">
+                            <table class="table display data-table text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.PostId)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Description)
+                                        </th>
+                                      
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Activity)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Attachment)
+                                        </th>
+                                        
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Status)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.UserId)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PostId)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Description)
+                                            </td>
+                                            
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Activity)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Attachment)
+                                            </td>
+                                            
+                                           
+                                            <td>
+                                                
+                                                @*<div id="b" value="activate" > *@
+                                                <form method="post" asp-action="Activate" asp-route-id="@item.PostId">
+                                                        <button style="background-color: #98BF64;" type="submit">Approve</button>
+                                                </form>@*</div>*@
+                                                @*<div id="myDiv">
+                                                    <p>This is the content of my div.</p>
+                                                    <button id="removeButton">Remove</button>
+                                                </div>*@
+
+                                               @* <div id="a" value="1">*@
+                                                    @Html.DisplayFor(modelItem => item.Status)
+                                               @* </div>*@
+                                             
+                                            </td>
+
+
+                                           @* @section Scripts {
+                                            @{
+                                                    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+                                                }
+                                                <script type="text/javascript">
+                                                    $(function () {
+                                                        //$("#b").hide();
+                                                        //$("#a").hide();
+                                                        $("#b").change(function () {
+                                                            if ($(this).val() == "Inactivate") {
+                                                                $("#b").show();
+                                                                //$("#a").remove();
+                                                            
+                                                        });
+                                                        
+                                                    });
+                                                </script>}*@
+                                                
+
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.UserId)
+                                            </td>
+                                            <td>
+                                                <div class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                        <span class="flaticon-more-button-of-three-dots"></span>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" asp-action="Delete" asp-route-id="@item.PostId"><i class="fas fa-times text-orange-red"></i>Delete</a>
+                                                        <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.PostId">Edit</a>
+                                                        <a class="dropdown-item" asp-action="Details" asp-route-id="@item.PostId">Details</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Class Table Area End Here -->
+               
+            </div>
+        </div>
+        <!-- Page Area End Here -->
+    </div>
+ 
+ @*   @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script type="text/javascript">
+            $(function () {
+                if ($(this).val() == "Activate") {
+                    // $("#b").show();
+                    $("#b").remove();
+
+                });
+                
+                    
+
+            });
+        </script>}
+   @* @section Scripts {
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#removeButton').click(function () {
+                    $('#myDiv').remove();
+                });
+            });
+        </script>
+    }
+*@
+
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $("#b").click(function () {
+                    $("#b").remove();
+                });
+            });
+        </script>
+    }
+
+
+
+
+</body>
+
+</html>

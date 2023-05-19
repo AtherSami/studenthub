@@ -1,0 +1,180 @@
+﻿@{
+    Layout = null;
+}
+@model SocialProject.Models.UserModel
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from social.webestica.com/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Mar 2023 08:06:22 GMT -->
+<head>
+	<title>Portsmouth Student's Hub</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap 5 based Social Media Network and Community Theme">
+	
+	<!-- Dark mode -->
+	<script>
+		const storedTheme = localStorage.getItem('theme')
+
+		const getPreferredTheme = () => {
+			if (storedTheme) {
+				return storedTheme
+			}
+			return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+		}
+
+		const setTheme = function (theme) {
+			if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.setAttribute('data-bs-theme', 'dark')
+			} else {
+				document.documentElement.setAttribute('data-bs-theme', theme)
+			}
+		}
+
+		setTheme(getPreferredTheme())
+
+		window.addEventListener('DOMContentLoaded', () => {
+			var el = document.querySelector('.theme-icon-active');
+			if (el != 'undefined' && el != null) {
+				const showActiveTheme = theme => {
+					const activeThemeIcon = document.querySelector('.theme-icon-active use')
+					const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+					const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+					document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+						element.classList.remove('active')
+					})
+
+					btnToActive.classList.add('active')
+					activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+				}
+
+				window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+					if (storedTheme !== 'light' || storedTheme !== 'dark') {
+						setTheme(getPreferredTheme())
+					}
+				})
+
+				showActiveTheme(getPreferredTheme())
+
+				document.querySelectorAll('[data-bs-theme-value]')
+					.forEach(toggle => {
+						toggle.addEventListener('click', () => {
+							const theme = toggle.getAttribute('data-bs-theme-value')
+							localStorage.setItem('theme', theme)
+							setTheme(theme)
+							showActiveTheme(theme)
+						})
+					})
+
+			}
+		})
+
+	</script>
+
+	<!-- Favicon -->
+	 <!-- Favicon -->
+     <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/logo/logo.png">
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main class="login_img">
+
+		<!-- Container START -->
+		<div class="container">
+			<div class="row justify-content-center align-items-center vh-100 py-5">
+				<!-- Main content START -->
+				<div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+					<!-- Sign in START -->
+					<div class="card card-body text-center p-4 p-sm-5" style="background-color: #0c11156e !important;">
+						<!-- Title -->
+						<h1 class="mb-2 text_color">Sign in</h1>
+						<p class="mb-0 v text_color">
+							Don't have an account?<a href="@Url.Action("Add")" style="color: #73b4c7;font-weight: 600;text-transform: uppercase;"> Click here to sign up</a>
+						</p>
+						<!-- Form START -->
+						<form class="mt-sm-4" asp-action="login">
+							<!-- Email -->
+							 @using (Html.BeginForm("login", "User", FormMethod.Post))
+                {
+
+                    if (ViewBag.LoginStatus != null)
+                    {
+                        if (ViewBag.LoginStatus == 0)
+                        {
+                                        <div class="alert alert-danger">Invalid login detail</div>
+                        }
+                    }
+                
+							<div class="mb-3 input-group-lg text_color">
+								<input type="email" class="form-control" placeholder="Enter email" asp-for="Email">
+							</div>
+							<!-- New password -->
+							<div class="mb-3 position-relative">
+								<!-- Password -->
+								<div class="input-group input-group-lg text_color">
+									<input asp-for="Password" class="form-control fakepassword" type="password" id="psw-input" placeholder="Enter new password">
+									<span class="input-group-text p-0" style="background-color: #0f6fec;">
+										<i class="fakepasswordicon fa-solid fa-eye-slash cursor-pointer p-2 w-40px text_color"></i>
+									</span>
+								</div>
+							</div>
+							<!-- Remember me -->
+							@*<div class="mb-3 d-sm-flex justify-content-between">
+								<div class="text_color">
+									<input type="checkbox" class="form-check-input" id="rememberCheck">
+									<label class="form-check-label" for="rememberCheck">Remember me?</label>
+								</div>
+								<a asp-area="" asp-controller="User" asp-action="ForgotPassword" style="color: #73b4c7;font-weight: 600;text-transform: uppercase;">Forgot password?</a>
+							</div>*@
+							<!-- Button -->
+							<div class="d-grid">
+									<button class="btn btn-lg btn-primary value="submit" type="submit">
+										Login
+									</button>
+							</div>
+							<!-- Copyright -->
+							@*<p class="mb-0 mt-3 text_color">©2023 All rights reserved</p>*@
+							}
+						</form>
+						<!-- Form END -->
+					</div>
+					<!-- Sign in START -->
+				</div>
+			</div> <!-- Row END -->
+		</div>
+		<!-- Container END -->
+
+	</main>
+	<!-- **************** MAIN CONTENT END **************** -->
+	<!-- =======================
+	JS libraries, plugins and custom scripts -->
+	<!-- Bootstrap JS -->
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendors -->
+	<script src="assets/vendor/pswmeter/pswmeter.min.js"></script>
+
+	<!-- Theme Functions -->
+	<script src="assets/js/functions.js"></script>
+
+</body>
+
+<!-- Mirrored from social.webestica.com/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Mar 2023 08:06:22 GMT -->
+</html>

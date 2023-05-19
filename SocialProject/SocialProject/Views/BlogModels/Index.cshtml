@@ -1,0 +1,350 @@
+﻿@model IEnumerable<SocialProject.Models.BlogModel>
+@*
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Attachment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Attachment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BlogId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BlogId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BlogId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+
+
+
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+    <!-- Container START -->
+    <div class="container-fluid">
+        <div class="row g-4">
+            <!-- Sidenav START -->
+            <!-- Sidenav START -->
+            <div class="col-lg-3">
+
+                <!-- Advanced filter responsive toggler START -->
+                <div class="d-flex align-items-center d-lg-none">
+                    <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                        <span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+                        <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+                    </button>
+                </div>
+                <!-- Advanced filter responsive toggler END -->
+                <!-- Navbar START-->
+                <nav class="navbar navbar-expand-lg mx-0">
+                    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasSideNavbar">
+                        <!-- Offcanvas header -->
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <!-- Offcanvas body -->
+                        <div class="offcanvas-body d-block px-2 px-lg-0 sidebar_style">
+                            <!-- Card START -->
+                            <div class="card overflow-hidden">
+                                <!-- Cover image -->
+                                <div class="h-50px" style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+                                <!-- Card body START -->
+                                <div class="card-body pt-0">
+                                    <div class="text-center">
+                                        <!-- Avatar -->
+                                        <div class="avatar avatar-lg mt-n5 mb-3">
+                                            <a href="#!"><img class="avatar-img rounded border border-white border-6" src="@Context.Session.GetString("Attachment")" alt=""></a>
+                                        </div>
+                                        <!-- Info -->
+                                        <h5 class="mb-0"> <a href="#!">@Context.Session.GetString("UserName")</a> </h5>
+                                        <small>Student</small>
+                                        <p class="mt-3">University Of Portsmouth</p>
+
+                                        <!-- User stat START -->
+                                        <div class="hstack gap-2 gap-xl-3 justify-content-center">
+                                            <!-- User stat item -->
+                                            <!-- Divider -->
+                                            @*<div class="vr"></div>*@
+
+
+                                        </div>
+                                        <!-- User stat END -->
+                                    </div>
+
+                                    <!-- Divider -->
+                                    <hr>
+
+                                    <!-- Side Nav START -->
+                                    <ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("Create","PostModels")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/home-outline-filled.svg" alt=""><span>New Feeds </span></a>
+                                        </li>
+                                        @*<li class="nav-item">
+                                        <a class="nav-link" href="my-profile-connections.html"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/person-outline-filled.svg" alt=""><span>Connections </span></a>
+                                        </li>*@
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-action="Index" asp-controller="BlogModels"><img class="me-2 h-20px fa-fw" src="~/assets/images/icon/earth-outline-filled.svg" alt=""><span>Topics </span></a>
+                                        </li>
+                                        @*<li class="nav-item">
+                                        <a class="nav-link" href="@Url.Action("Events")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/calendar-outline-filled.svg" alt=""><span>Events </span></a>
+                                        </li>*@
+                                   @*     <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="assets/images/icon/chat-outline-filled.svg" alt=""><span>Groups </span></a>
+                                        </li>*@
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("MyProfile","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/notification-outlined-filled.svg" alt=""><span>Timeline</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="@Url.Action("Setting","Home")"> <img class="me-2 h-20px fa-fw" src="~/assets/images/icon/cog-outline-filled.svg" alt=""><span>Settings </span></a>
+                                        </li>
+                                    </ul>
+                                    <!-- Side Nav END -->
+                                </div>
+                                <!-- Card body END -->
+                                <!-- Card footer -->
+                                <div class="card-footer text-center py-2">
+                                    <a class="btn btn-link btn-sm" href="@Url.Action("MyProfile","Home")">View Profile </a>
+                                </div>
+                            </div>
+                            <!-- Card END -->
+                            <!-- Helper link START -->
+                            <!-- Helper link END -->
+                            <!-- Copyright -->
+                        </div>
+                    </div>
+                </nav>
+                <!-- Navbar END-->
+            </div>
+
+            <!-- Sidenav END -->
+            <!-- Main content START -->
+            <div class="col-lg-6">
+                <div class="bg-mode p-4">
+                    <h1 class="h4 mb-4">Latest blogs</h1>
+                    @foreach (var item in Model)
+                    {
+                             <div class="card card-body">
+                        <!-- Blog item START -->
+                        <div class="card bg-transparent border-0">
+                            <div class="row g-3">
+                                @* <div class="col-4">
+                            <!-- Blog image -->
+                            @if (item.Attachment != null)
+                            {
+                            @foreach (var attachment in item.Attachment.Split(','))
+                            {
+                            <div>
+                            @if (attachment.EndsWith(".jpg") || attachment.EndsWith(".jpeg") || attachment.EndsWith(".png"))
+                            {
+                            <img src="@Url.Content("~/uploads/" + attachment)" />
+                            }
+                            else if (attachment.EndsWith(".mp4") || attachment.EndsWith(".avi") || attachment.EndsWith(".mov"))
+                            {
+                            <video controls>
+                            <source src="@Url.Content("~/uploads/" + attachment)" type="video/mp4" />
+                            Your browser does not support the video tag.
+                            </video>
+                            }
+                            else if (attachment.EndsWith(".pdf"))
+                            {
+                            <a href="@Url.Content("~/uploads/" + attachment)" target="_blank">@attachment</a>
+                            }
+                            </div>
+                            }
+
+                            }
+                            </div>*@
+                                
+                                    <div class="col-4">
+                                        <!-- Blog image -->
+                                        @if (item.Attachment != null)
+                                        {
+                                            <img class="rounded" src="@Url.Content("~/uploads/" + item.Attachment)" />
+                                        }
+                                    </div>
+                                <div class="col-8">
+                                    <!-- Blog caption -->
+                                    @*<a href="#" class="badge bg-danger bg-opacity-10 text-danger mb-2 fw-bold">Lifestyle</a>*@
+                                    <h5>
+                                        <a asp-action="Details" asp-route-id="@item.BlogId" class="btn-link stretched-link text-reset fw-bold">@item.Title</a>
+
+                                    </h5>
+                                    <div class="d-none d-sm-inline-block">@*
+                                        <p class="mb-2">@Html.Raw(item.Description) </p>*@
+                                        <p class="mb-2">@Html.Raw(Truncate(item.Description, 60)) </p>
+
+                                        <!-- BLog date -->
+                                        <a class="small text-secondary" href="#!"> <i class="bi bi-calendar-date pe-1"></i> @item.CreateDate</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Blog item END -->
+                       @* <hr >*@
+                       <br/>
+                    }
+                    @functions {
+                        public static string Truncate(string value, int numWords)
+                        {
+                            if (string.IsNullOrEmpty(value)) return value;
+
+                            string[] words = value.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                            if (words.Length <= numWords)
+                            {
+                                return value;
+                            }
+                            else
+                            {
+                                return string.Join(" ", words.Take(numWords)) + "...";
+                            }
+                        }
+                    }
+                    <!-- Blog item START -->
+                    @*<div class="card bg-transparent border-0">
+                        <div class="row g-3">
+                            <div class="col-4">
+                                <!-- Blog image -->
+                                <img class="rounded" src="assets/images/post/4by3/04.jpg" alt="">
+                            </div>
+                            <div class="col-8">
+                                <!-- Blog caption -->
+                                <a href="#" class="badge bg-info bg-opacity-10 text-info mb-2 fw-bold">Sports</a>
+                                <h5><a href="blog-details.html" class="btn-link stretched-link text-reset fw-bold">Upcoming live video feed may not work how you expect</a></h5>
+                                <div class="d-none d-sm-inline-block">
+                                    <p class="mb-2">Under folly balls, death own point now men. Match way these she avoids seeing death.</p>
+                                    <!-- BLog date -->
+                                    <a class="small text-secondary" href="#!"> <i class="bi bi-calendar-date pe-1"></i> Mar 07, 2022</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog item END -->
+                    <hr class="my-4">*@
+                    <!-- Blog item START -->
+                    <!-- Pagination -->
+                   
+                </div>
+            </div>
+            <!-- Main content END -->
+            <!-- Right sidebar START -->
+
+        </div>
+    </div>
+    <!-- Container END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+<!-- footer START -->
+@*<footer class="bg-mode py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Footer nav START -->
+                <ul class="nav justify-content-center justify-content-md-start lh-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-profile-about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://support.webestica.com/login">Support </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="docs/index.html">Docs </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="privacy-and-terms.html">Privacy & terms</a>
+                    </li>
+                </ul>
+                <!-- Footer nav START -->
+            </div>
+            <div class="col-md-6">
+                <!-- Copyright START -->
+                <p class="text-center text-md-end mb-0">©2023 <a class="text-body" target="_blank" href="https://www.webestica.com/"> Webestica </a>All rights reserved.</p>
+                <!-- Copyright END -->
+            </div>
+        </div>
+    </div>
+</footer>*@
+<!-- footer END -->

@@ -1,0 +1,510 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    Layout = "~/views/shared/_layout1.cshtml";
+}
+@model SocialProject.Models.Admin
+
+
+<html lang="en">
+    
+<style>
+    .css-1aui5xv {
+        max-width: 500px;
+        width: 100%;
+        padding: 18px;
+        text-align: center;
+        position: relative;
+    }
+
+    .css-6jj4d3 {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .css-1smwne4 {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .css-7opdzu {
+        box-sizing: border-box;
+        outline: none;
+        width: 100%;
+        height: 62px;
+        padding: 18px 24px;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.25px;
+        font-weight: 600;
+        color: rgb(44, 42, 80);
+        border-radius: 18px;
+        border: 2px solid rgb(215, 42, 43);
+        caret-color: rgb(0, 146, 229);
+    }
+
+    .css-1kgu5h {
+        box-sizing: border-box;
+        outline: none;
+        width: 100%;
+        height: 62px;
+        padding: 18px 24px;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.25px;
+        font-weight: 600;
+        color: rgb(44, 42, 80);
+        border-radius: 18px;
+        border: 2px solid rgb(113, 116, 160);
+        caret-color: rgb(0, 146, 229);
+    }
+
+    .css-11j3eer {
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+
+    }
+
+    button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+        input[type="password" i] {
+            -webkit-text-security: disc !important;
+            padding: 15px;
+        }
+    .css-k2q89j {
+        border: 2px solid rgb(211, 215, 236);
+        border-radius: 42px;
+        box-shadow: rgba(45, 64, 150, 0.06) 0px 6px 0px;
+        padding: 24px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .css-1gy6l0t {
+        font-size: 18px;
+        display: inline-block;
+        line-height: 0;
+        color: rgb(44, 42, 80);
+        position: relative;
+    }
+
+    .css-1ufacvb {
+        background-color: transparent;
+        border: 0px;
+        padding: 0px 24px;
+        text-align: inherit;
+        height: 62px;
+        max-height: 62px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .css-1ufacvb {
+        background-color: transparent;
+        border: 0px;
+        padding: 0px 24px;
+        text-align: inherit;
+        height: 62px;
+        max-height: 62px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .css-l5xv05 {
+    position: relative;
+}
+
+    .css-1owoomt, .css-1owoomt:visited {
+        color: #aab0d8;
+    }
+
+    .css-85dozb {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .css-1j50j9d {
+    width: 100%;
+    border: none;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 19px 24px;
+}
+
+button {
+    cursor: pointer;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.css-1j50j9d span {
+    color: rgb(0, 178, 247);
+    white-space: nowrap;
+}
+
+
+.css-jh65zo, .css-jh65zo:visited {
+    color: rgb(0, 178, 247);
+}
+
+.css-jh65zo {
+    border-width: 0px;
+    box-sizing: border-box;
+    color: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    padding: 0px;
+    text-decoration-line: none;
+    display: block;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+    button[disabled], html input[disabled] {
+        cursor: default;
+    }
+
+
+    
+    .css-1ut3a6g {
+        width: 100%;
+        border: none;
+        position: relative;
+        background-color: rgb(247, 248, 255);
+        border-radius: 40px;
+        cursor: not-allowed;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 19px 24px;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button, html input[type=button], input[type=reset], input[type=submit] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+
+    button, select {
+        text-transform: none;
+    }
+
+    button {
+        overflow: visible;
+    }
+
+    button, input, optgroup, select, textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+    }
+    .css-1ut3a6g span {
+    color: rgb(211, 215, 236);
+    white-space: nowrap;
+}
+
+
+.css-jh65zo, .css-jh65zo:visited {
+    color: rgb(0, 178, 247);
+}
+
+.css-jh65zo {
+    border-width: 0px;
+    box-sizing: border-box;
+    color: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    padding: 0px;
+    text-decoration-line: none;
+    display: block;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0px;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+
+.css-1ut3a6g {
+    width: 100%;
+    border: none;
+    position: relative;
+    background-color: rgb(247, 248, 255);
+    border-radius: 40px;
+    cursor: not-allowed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 19px 24px;
+}
+button {
+    cursor: pointer;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+    .css-1owoomt {
+        border-width: 0px;
+        box-sizing: border-box;
+       
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 0px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 22px;
+        font-weight: 700;
+        margin: 0px 0px 18px;
+        font-size: 15px;
+    }
+
+    a, a:active, a:hover, a:visited {
+        color: inherit;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a {
+        background-color: transparent;
+    }
+    .css-1gy6l0t {
+        font-size: 18px;
+        display: inline-block;
+        line-height: 0;
+        color: rgb(44, 42, 80);
+        position: relative;
+    }
+    button {
+        cursor: pointer;
+    }
+
+    button, html input[type=button], input[type=reset], input[type=submit] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+
+    button, select {
+        text-transform: none;
+    }
+
+   /* button {
+        overflow: visible;
+    }*/
+
+    button, input, optgroup, select, textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+    }
+    .css-1kgu5h {
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    height: 62px;
+
+    padding: 18px 24px;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spaci    ng: -0.25px;
+    font-weight:     600;
+    color: rgb(4    4, 42, 80);
+    border-radiu    s: 18px;
+    border: 2px     solid rgb(113, 116, 160);
+    caret-color:     rgb(0, 146, 229);
+}
+
+    button {
+        cursor: pointer;
+    }
+    .css-l5xv05 {
+        position: relative;
+    }
+
+    .css-85dozb {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .css-1nmcspn {
+        width: 100%;
+        border: none;
+        position: relative;
+        background-color: rgb(0, 178, 247);
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 19px 24px;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button, html input[type=button], input[type=reset], input[type=submit] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+    /* body {
+                position: relative;
+                font-family: ProximaNova,Helvetica Neue,Helvetica,Arial,sans-serif;
+                font-size: 1.4rem;
+                background-color: #f5f5f5;
+                min-height: 100vh;
+                min-width: 100%;
+            }*/
+    .css-6jj4d3 {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+</style>
+</html>
+
+<div class="css-4n7rnf"><div class="css-bl32jn">
+   <div class="css-1udtbz2">
+            <br /><br /><br /><br />
+       <a href="#" aria-label="Go to #.com"><img src="#" height="36px" alt=""></a></div></div><div class="css-85dozb"><div class="css-1wnswnx"><div class="css-zhygj3"></div><div class="css-1aui5xv">
+       <form class="css-k2q89j" asp-action="login">
+       @using (Html.BeginForm("login", "Admin", FormMethod.Post))
+                {
+
+                    if (ViewBag.LoginStatus != null)
+                    {
+                        if (ViewBag.LoginStatus == 0)
+                        {
+                                        <div class="alert alert-danger">Invalid login detail</div>
+                        }
+                    }
+                
+               
+        <h1 class="nessie-text css-cyldza">Login</h1>
+       <div class="css-1mpuf8u">
+            <div class="css-11j3eer">
+               <input  asp-for="Name" id="textFieldInputId1" type="text"  aria-label="UserName" placeholder="UserName" class="css-1kgu5h" value="">
+               </div>
+                </div>
+                   
+               <div class="css-l5xv05">
+                        <div class="css-6jj4d3">
+                        <div class="css-11j3eer">
+                           <input id="textFieldInputId6" asp-for="Password" type="password" placeholder="Password" aria-label="Password" class="css-1kgu5h" value="">
+                                    <button aria-label="show password" onclick="myFunction()" type="button" class="css-1ufacvb">
+
+
+                                        <script>
+                                            function myFunction() {
+                                                var x = document.getElementById("textFieldInputId6");
+                                                if (x.type === "password") {
+                                                    x.type = "text";
+                                                } else {
+                                                    x.type = "password";
+                                                }
+                                            }
+                                        </script>
+                       <span class="css-1gy6l0t">
+                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5C17 19.5 21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9Z">
+                            </path>
+               
+                </svg></span></button></div></div>
+                     
+              </div>
+               <a href="#/forgot" class="nessie-text css-1owoomt">Forgot your password?</a><div class="css-85dozb">
+                            <button  class="css-1nmcspn" value="submit"  type="submit"><span class="nessie-text css-jh65zo"> Log in</span></button>
+                    </div>
+                    }
+               </form>
+              
+           </div>
+     </div>
+   </div>
+</div>
+               

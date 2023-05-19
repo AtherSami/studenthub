@@ -1,0 +1,217 @@
+﻿@model SocialProject.Models.BlogModel
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@{
+    Layout = "~/views/shared/_layout1.cshtml";
+}
+<!DOCTYPE html>
+
+
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="">
+
+
+<!-- Mirrored from www.radiustheme.com/demo/html/psdboss/akkhor/akkhor/messaging.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Apr 2023 19:28:38 GMT -->
+
+
+
+<body>
+    <!-- Preloader Start Here -->
+    <!-- Preloader End Here -->
+    <div id="wrapper" class="wrapper bg-ash">
+        <!-- Header Menu Area Start Here -->
+        <div class="navbar navbar-expand-md header-menu-one bg-light">
+            <div class="nav-bar-header-one">
+                <div class="header-logo">
+                   
+                </div>
+                <div class="toggle-button sidebar-toggle">
+                    <button type="button" class="item-link">
+                        <span class="btn-icon-wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="d-md-none mobile-nav-bar">
+                <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </button>
+                <button type="button" class="navbar-toggler sidebar-toggle-mobile">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+             <div class="header-main-menu collapse navbar-collapse" id="mobile-navbar">
+                <ul class="navbar-nav">
+                    <li class="navbar-item header-search-bar">
+                        <div class="input-group stylish-input-group">
+                           @* <span class="input-group-addon">
+                                <button type="submit">
+                                    <span class="flaticon-search" aria-hidden="true"></span>
+                                </button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Find Something . . .">*@
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    
+                    <li class="css-1av80no edbptmw0"><a class="css-1x204xj e1726gi31" asp-area="" asp-controller="User" asp-action="Logout"><span class="css-1qhg48d eounsk90">Logout</span></a></li>
+
+                    
+                </ul>
+          </div></div>
+       
+        </div>
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+        <div class="dashboard-page-one">
+            <!-- Sidebar Area Start Here -->
+            <div class="sidebar-main sidebar-menu-one sidebar-expand-md sidebar-color">
+                <div class="mobile-sidebar-header d-md-none">
+                    <div class="header-logo">
+                        <a href="#"><img src="img/logo1.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="sidebar-menu-content">
+                    <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
+                        </li>
+
+
+
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="AdminDashboard" asp-controller="PostModels" class="nav-link "><i class="flaticon-menu-1"></i><span>New Requests</span></a>
+
+                        </li>
+                        <li class="nav-item ">
+                            <a asp-area="" asp-action="Index" asp-controller="PostModels" class="nav-link"><i class="flaticon-script"></i><span>ActivePosts</span></a>
+
+                        </li>
+
+                        <li class="nav-item ">
+                        <a asp-area="" asp-action="create" asp-controller="BlogModels" class="nav-link menu-active"><i class="flaticon-chat"></i><span>AddTopic</span></a>
+
+                        </li>
+
+                    <li class="nav-item ">
+                        <a asp-area="" asp-action="ActiveTopic" asp-controller="BlogModels" class="nav-link "><i class="flaticon-chat"></i><span>ActiveTopics</span></a>
+
+                    </li>
+
+                    </ul>
+                </div>
+            </div>
+        <!-- Header Menu Area End Here -->
+        <!-- Page Area Start Here -->
+      
+            <!-- Sidebar Area End Here -->
+            <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                <h3>Topics</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                    <li>Compose Topic</li>
+                    </ul>
+                </div>
+                <!-- Breadcubs Area End Here -->
+                <div class="row">
+                    <!-- Add Notice Area Start Here -->
+                    <div class="col-xl-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="heading-layout1">
+                                    <div class="item-title">
+                                        <h3>Add New Topic</h3>
+                                    </div>
+                                    
+                                </div>
+                                <form class="new-added-form" asp-action="Create" method="post" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <div class="col-12 form-group">
+                                            <label asp-for="Title" class="control-label"></label>
+                                            <input asp-for="Title" class="form-control" required />
+                                            <span asp-validation-for="Title" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label asp-for="Attachment" class="control-label fas fa-link mg-l-10 "></label>
+                                            <input type="file" asp-for="Attachment" name="files" style="display:none" multiple onchange="displayFileName()" />
+                                            <div id="fileDisplayContainer"></div>
+                                        </div>
+                                        <div class="col-12 form-group">
+                                            <label asp-for="Description">Description</label>
+                                            <textarea asp-for="Description" id="editor" name="Description" required></textarea>
+                                        </div>
+                                        <div class="col-12 form-group mg-t-8">
+                                            <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Post</button>
+                                        @* <button type="reset" class="btn-fill-lg bg-blue-dark btn-hover-yellow">Reset</button>
+                                       *@ </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Notice Area End Here -->
+                    <!-- All Notice Area Start Here -->
+                   
+                    <!-- All Notice Area End Here -->
+                </div>
+                
+            </div>
+        </div>
+        <!-- Page Area End Here -->
+    </div>
+    <!-- jquery-->
+@*    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Select 2 Js -->
+    <script src="js/select2.min.js"></script>
+    <!-- Scroll Up Js -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>*@
+    <script>
+        function displayFileName() {
+            var input = document.querySelector('input[type=file]');
+            var fileDisplayContainer = document.querySelector('#fileDisplayContainer');
+
+            while (fileDisplayContainer.firstChild) {
+                fileDisplayContainer.removeChild(fileDisplayContainer.firstChild);
+            }
+
+            for (var i = 0; i < input.files.length; i++) {
+                var fileName = input.files[i].name;
+                var div = document.createElement('div');
+                div.innerHTML = fileName;
+                fileDisplayContainer.appendChild(div);
+            }
+        }
+
+        var fileInput = document.querySelector('input[type=file]');
+        fileInput.addEventListener('change', displayFileName);
+    </script>
+
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+
+</body>
+
+
+<!-- Mirrored from www.radiustheme.com/demo/html/psdboss/akkhor/akkhor/messaging.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Apr 2023 19:28:38 GMT -->
+</html>

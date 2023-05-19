@@ -1,0 +1,249 @@
+﻿@model SocialProject.Models.Admin
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+
+<style>
+    .css-rtpi4b {
+        border-width: 0px;
+        box-sizing: border-box;
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 20px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 600;
+        margin: 0px;
+        color: rgb(44, 42, 80);
+        text-align: center;
+    }
+
+    .css-1nmcspn {
+        width: 30%;
+        border: none;
+        position: relative;
+        background-color: rgb(0, 178, 247);
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 19px 24px;
+    }
+
+    button {
+        cursor: pointer;
+        align: center;
+    }
+
+    button, html input[type=button], input[type=reset], input[type=submit] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+
+    .css-jh65zo, .css-jh65zo:visited {
+        color: rgb(0, 178, 247);
+    }
+
+    .css-1hxd7po {
+        border-top: 1px solid rgb(211, 215, 236);
+        width: 100%;
+        padding: 10px;
+    }
+
+    .css-1il45xl {
+        border: none;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        border-radius: 40px;
+        cursor: pointer;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 19px 24px;
+    }
+
+    .css-jh65zo {
+        border-width: 0px;
+        box-sizing: border-box;
+        color: inherit;
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 0px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        margin: 0px;
+    }
+
+    .css-fgyd9j {
+        border-width: 0px;
+        box-sizing: border-box;
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 0px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.25px;
+        font-weight: 600;
+        margin: 0px;
+        color: rgb(44, 42, 80);
+    }
+
+    css-hu2wat {
+        border-width: 0px;
+        box-sizing: border-box;
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 0px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 36px;
+        font-weight: 900;
+        margin: 0px;
+        color: rgb(44, 42, 80);
+        letter-spacing: -0.35px;
+        font-size: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer
+    }
+
+        a, a:active, a:hover, a:visited {
+            color: rgb(0, 178, 247);
+        }
+
+    .css-1il45xl span {
+        color: rgb(0, 178, 247);
+        white-space: nowrap;
+    }
+
+    .css-1il45xl:hover, .css-1il45xl:focus {
+        background-color: rgb(242, 250, 255);
+        align-items: center;
+    }
+
+    <style >
+    .css-jh65zo, .css-jh65zo:visited {
+        color: rgb(0, 178, 247);
+    }
+
+    .css-jh65zo {
+        border-width: 0px;
+        box-sizing: border-box;
+        color: inherit;
+        font-style: inherit;
+        font-variant: inherit;
+        padding: 0px;
+        text-decoration-line: none;
+        display: block;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        margin: 0px;
+    }
+</style>
+<div class="css-bl32jn">
+    <div class="css-1udtbz2">
+        <a href="https://www.classdojo.com/" aria-label="Go to ClassDojo.com">
+            <img src="https://home-static.classdojo.com/_next/static/media/classdojo-logo@2x.4bdae246.png" height="36px" alt="">
+        </a>
+    </div>
+</div>
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+
+
+
+
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5" align="center">Sign Up</h3>
+                        <form asp-action="Signup">
+
+                            
+                                   
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+
+
+                                    <div class="form-group">
+                                        <label asp-for="Name" class="control-label"></label>
+                                        <input asp-for="Name" class="form-control" required />
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+
+                                    <div class="form-group">
+
+                                        <label class="controll-label" asp-for="Password">Password</label>
+                                        <input type="password" asp-for="Password" class="form-control form-control" required />
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                           
+                           
+
+                            <div class="mt-4 pt-2">
+                                <div class="form-group" align="center">
+                                        @*<input type="submit" value="Create" class="btn btn-primary" />*@
+                                    <button class="css-1nmcspn" value="submit" type="submit"><span class="nessie-text css-jh65zo"> Sign Up</span></button>
+
+                                </div>
+                            </div>
+                            <span class="nessie-text css-rtpi4b"><span>By signing up, you agree to #'s <a target="_blank" href="//www.classdojo.com/terms">Terms of Service</a> and <a target="_blank" href="//www.classdojo.com/privacy">Privacy Policy</a></span></span>
+                            <div class="css-1hxd7po"></div>
+                            <h2 class="nessie-text css-fgyd9j" align="center">Already have a parent account?  </h2>
+                            <a class="css-1il45xl" asp-action="login"><span class="nessie-text css-jh65zo">Log in here</span></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+            @* <div>
+        <a asp-action="Index">Back to List</a>
+        </div>*@
+    </div>
+      
+</section>
+
+
+
+

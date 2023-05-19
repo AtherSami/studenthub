@@ -1,0 +1,35 @@
+﻿@model List<NotificationModel>
+
+<ul class="list-group list-group-flush list-unstyled p-2">
+    @if (Model != null && Model.Count > 0)
+    {
+        @foreach (var notification in Model)
+        {
+            <li>
+                <div class="list-group-item list-group-item-action rounded badge-unread d-flex border-0 mb-1 p-3">
+                    <div class="avatar text-center d-none d-sm-inline-block">
+                        <img class="avatar-img rounded-circle" src="@Url.Content(notification.Senderpic)" alt="">
+                    </div>
+                    <div class="ms-sm-3">
+                        <div class="d-flex">
+                            <p class="small mb-2"><b>@notification.SenderName</b> @notification.Message.</p>
+                            <p class="small ms-3 text-nowrap">@notification.CreatedAt.ToString("dd MMMM yyyy HH:mm:ss")</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        }
+    }
+    else
+    {
+        <li>
+            <div class="list-group-item list-group-item-action rounded badge-unread d-flex border-0 mb-1 p-3">
+                <div class="ms-sm-3">
+                    <div class="d-flex">
+                        <p class="small mb-2">No notifications.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
